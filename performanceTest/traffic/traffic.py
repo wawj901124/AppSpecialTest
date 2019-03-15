@@ -81,10 +81,12 @@ class Controller(object):
         cmd = 'adb shell dumpsys battery set status 1'
         os.popen(cmd)
         self.DeleyTime(3)
+        print("循环开始时间：%s" % self.GetCurrentTime() )
         while self.counter>0:  #  如果次数大于0
             self.TestProcessOnce()  #  则执行一次测试过程
             self.counter = self.counter -1 #  测试次数减一
             self.DeleyTime(5)  # 间隔5秒取一次值
+        print("循环结束时间：%s" % self.GetCurrentTime())
 
     #获取当前存储数据的时间戳
     def GetCurrentTime(self):
