@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>uiautomation2 python 自动化测试_测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 120%; }
+table       { font-size: 100%; }
+
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<script language="javascript" type="text/javascript">
+output_list = Array();
+
+/*level 调整增加只显示通过用例的分类 --Findyou
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="收起"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="详细"
+        }
+    }
+}
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        //ID修改 点 为 下划线 -Findyou
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">uiautomation2 python 自动化测试_测试报告</h1>
+<p class='attribute'><strong>测试人员 : </strong> 小贝</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-03-14 17:29:46</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:03:46.694967</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 19，通过 19，通过率= 100.00%</p>
+
+<p class='description'>用例执行情况：</p>
+</div>
+
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败+错误{ 0 + 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 19 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 19 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>project.ddtTest.ddtTestLogin.TestLogin</td>
+    <td class="text-center">5</td>
+    <td class="text-center">5</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',5)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+    <tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_1___账号密码错误提示___True__True___81234567891234____123456____Incorrect_account_number_or_login_password__Please_try_again_PP001____None___Try_again__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre>
+    
+1_1: 
+
+启动包名为[com.ahdi.qrindo.wallet]的应用---------
+等待3秒...
+该控件的text属性的值为： Log in with Password
+定位到text为[Log in with Password]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： 81122336666
+定位到text为[81122336666]的控件。
+输入:81234567891234。
+等待1秒...
+该控件的text属性的值为： None
+定位到text为[None]的控件。
+输入:123456。
+等待1秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Incorrect account number or login password. Please try again(PP001)
+定位到text为[Incorrect account number or login password. Please try again(PP001)]的控件。
+该控件的text属性的值为： Try again
+定位到text为[Try again]的控件。
+点击该控件。
+等待3秒...
+账号密码错误提示.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_2___登录账号长度小于8位_login按钮置灰___False__False___1234567____123456____Login___None___Login__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre>
+    
+1_2: 
+
+该控件的text属性的值为： 81234567891234
+定位到text为[81234567891234]的控件。
+输入:1234567。
+等待1秒...
+该控件的text属性的值为： None
+定位到text为[None]的控件。
+输入:123456。
+等待1秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+该控件的enabled属性的值为： False
+登录账号长度小于8位，login按钮置灰.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_3___密码长度小于6位_login按钮置灰___False__False___12345678____12345____Login___None___Login__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre>
+    
+1_3: 
+
+该控件的text属性的值为： 1234567
+定位到text为[1234567]的控件。
+输入:12345678。
+等待1秒...
+该控件的text属性的值为： None
+定位到text为[None]的控件。
+输入:12345。
+等待1秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+该控件的enabled属性的值为： False
+密码长度小于6位，login按钮置灰.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_4___非8或08开头的账号提示非印尼号___False__False___12345678____123456____Login____You_have_entered_an_invalid_Indonesia_number___None_</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre>
+    
+1_4: 
+
+该控件的text属性的值为： 12345678
+定位到text为[12345678]的控件。
+输入:12345678。
+等待1秒...
+该控件的text属性的值为： None
+定位到text为[None]的控件。
+输入:123456。
+等待1秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+点击该控件。
+toastmessage: You have entered an invalid Indonesia number
+pretoastmessage: You have entered an invalid Indonesia number
+toastmessage: You have entered an invalid Indonesia number
+非8或08开头的账号提示非印尼号.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_5___正确的账号密码登录成功___False__False___81122336666____abc123456____Show_all___None__None_</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>通过</button>
+    <div id='div_pt1_5' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>通过</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre>
+    
+1_5: 
+
+该控件的text属性的值为： 12345678
+定位到text为[12345678]的控件。
+输入:81122336666。
+等待1秒...
+该控件的text属性的值为： None
+定位到text为[None]的控件。
+输入:abc123456。
+等待1秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Show all
+定位到text为[Show all]的控件。
+正确的账号密码登录成功.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+<tr class='passClass warning'>
+    <td>project.ddtTest.ddtTestHome.TestHome</td>
+    <td class="text-center">9</td>
+    <td class="text-center">9</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',9)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+    <tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_1___点击MYOR然后返回Home页____Home____My_QR__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_1' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_1' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse in">
+    <pre>
+    
+2_1: 
+
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： My QR
+定位到text为[My QR]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击MYOR然后返回Home页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_2___点击TopUp然后返回Home页____Home____Top_Up__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_2' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_2' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in">
+    <pre>
+    
+2_2: 
+
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Top Up
+定位到text为[Top Up]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击TopUp然后返回Home页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_3___点击History然后返回Home页____Home____History__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_3' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_3' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse in">
+    <pre>
+    
+2_3: 
+
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： History
+定位到text为[History]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击History然后返回Home页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_4___点击ShowAll然后返回Home页____Home____Show_all__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_4' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_4' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse in">
+    <pre>
+    
+2_4: 
+
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Show all
+定位到text为[Show all]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Home
+定位到text为[Home]的控件。
+点击ShowAll然后返回Home页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_5___点击Balance然后返回Me页____Me____Balance__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_5' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_5'>通过</button>
+    <div id='div_pt2_5' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_5' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_5'>通过</button>
+    <div id='div_pt2_5' class="collapse in">
+    <pre>
+    
+2_5: 
+
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Balance
+定位到text为[Balance]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击Balance然后返回Me页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_6___点击BankCard然后返回Me页____Me____Bank_Card__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_6' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_6'>通过</button>
+    <div id='div_pt2_6' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_6' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_6'>通过</button>
+    <div id='div_pt2_6' class="collapse in">
+    <pre>
+    
+2_6: 
+
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Bank Card
+定位到text为[Bank Card]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击BankCard然后返回Me页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_7___点击BankAccount然后返回Me页____Me____Bank_Account__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_7' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_7'>通过</button>
+    <div id='div_pt2_7' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_7' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_7'>通过</button>
+    <div id='div_pt2_7' class="collapse in">
+    <pre>
+    
+2_7: 
+
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Bank Account
+定位到text为[Bank Account]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击BankAccount然后返回Me页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_8___点击IdentityVerification然后返回Me页____Me____Identity_Verification__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_8' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_8'>通过</button>
+    <div id='div_pt2_8' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_8' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_8'>通过</button>
+    <div id='div_pt2_8' class="collapse in">
+    <pre>
+    
+2_8: 
+
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Identity Verification
+定位到text为[Identity Verification]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击IdentityVerification然后返回Me页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt2_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandback_9___点击Settings然后返回Me页____Me____Settings__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_9' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_9'>通过</button>
+    <div id='div_pt2_9' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_9' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt2_9'>通过</button>
+    <div id='div_pt2_9' class="collapse in">
+    <pre>
+    
+2_9: 
+
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Settings
+定位到text为[Settings]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Me
+定位到text为[Me]的控件。
+点击Settings然后返回Me页.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+<tr class='passClass warning'>
+    <td>project.ddtTest.ddtTestSettings.TestSettings</td>
+    <td class="text-center">5</td>
+    <td class="text-center">5</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',5)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+    <tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandbackandlogout_1___点击Settings进入Settings页_点击ChangeLoginPassword后返回Settings___True__False___Change_Login_Password__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_1' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_1' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse in">
+    <pre>
+    
+3_1: 
+
+该控件的text属性的值为： Settings
+定位到text为[Settings]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Change Login Password
+定位到text为[Change Login Password]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Settings
+定位到text为[Settings]的控件。
+点击Settings进入Settings页，点击ChangeLoginPassword后返回Settings.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt3_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandbackandlogout_2___点击ChangeTransactionPIN后返回Settings___False__False___Change_Transaction_PIN__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_2' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
+    <div id='div_pt3_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_2' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
+    <div id='div_pt3_2' class="collapse in">
+    <pre>
+    
+3_2: 
+
+该控件的text属性的值为： Change Transaction PIN
+定位到text为[Change Transaction PIN]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Settings
+定位到text为[Settings]的控件。
+点击ChangeTransactionPIN后返回Settings.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt3_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandbackandlogout_3___点击AboutQRindo后返回Settings___False__False___About_QRindo__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_3' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_3'>通过</button>
+    <div id='div_pt3_3' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_3' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt3_3'>通过</button>
+    <div id='div_pt3_3' class="collapse in">
+    <pre>
+    
+3_3: 
+
+该控件的text属性的值为： About QRindo
+定位到text为[About QRindo]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Settings
+定位到text为[Settings]的控件。
+点击AboutQRindo后返回Settings.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt3_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandbackandlogout_4___点击Help后返回Settings___False__False___Help__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_4' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_4'>通过</button>
+    <div id='div_pt3_4' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_4' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt3_4'>通过</button>
+    <div id='div_pt3_4' class="collapse in">
+    <pre>
+    
+3_4: 
+
+该控件的text属性的值为： Help
+定位到text为[Help]的控件。
+点击该控件。
+等待3秒...
+等待5秒...
+等待1秒...
+该控件的text属性的值为： Settings
+定位到text为[Settings]的控件。
+点击Help后返回Settings.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+    <tr id='pt3_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_clickandbackandlogout_5___点击Logout登出___False__True___Login__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_5' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_5'>通过</button>
+    <div id='div_pt3_5' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_5' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_pt3_5'>通过</button>
+    <div id='div_pt3_5' class="collapse in">
+    <pre>
+    
+3_5: 
+
+该控件的text属性的值为： Log Out
+定位到text为[Log Out]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Log Out
+定位到text为[Log Out]的控件。
+点击该控件。
+等待3秒...
+该控件的text属性的值为： Login
+定位到text为[Login]的控件。
+点击Logout登出.---测试通过
+
+
+测试通过
+<img hidden="hidden" src="" alt="picture_shot" height="480" width="270"></img>
+<a  hidden="hidden"  href="">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+    
+<tr id='total_row' class="text-center active">
+    <td>总计</td>
+    <td>19</td>
+    <td>19</td>
+    <td>0</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+
+</body>
+</html>
