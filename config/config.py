@@ -36,3 +36,9 @@ RunMeminfoCount = 2
 RunMeminfoSecond = 1 # 定义刷新的秒数,每1秒刷新一次
 AppMeminfoCSVFile = "meminfo.csv"
 
+
+#top存储cpu和内容
+AppTopCupMemCSVFile = "topcpumem.csv"
+
+
+
