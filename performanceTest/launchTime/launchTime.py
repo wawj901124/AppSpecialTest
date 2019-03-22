@@ -34,7 +34,7 @@ class LaunchTime(object):
     #获取启动时间
     def GetLaunchTime(self):
         for line in self.content:   #  遍历启动命令后返回的文本信息
-            if "ThisTime" in line:  #  如果某行包含有"ThisTime"内容
+            if "TotalTime" in line:  #  如果某行包含有"ThisTime"内容
                 self.startTime = line.split(":")[1]  #  获取"ThisTime"的值（启动时间）
                 print("启动时间：%s" % self.startTime)
                 break  #  结束循环

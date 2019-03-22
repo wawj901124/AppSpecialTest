@@ -16,7 +16,7 @@ AppPackageName = 'com.ahdi.qrindo.wallet'
 AppLaunchActivity = 'com.ahdi.wallet.ui.activities.SplashActivity'
 # AppLaunchActivity = 'com.ahdi.wallet.ui.activities.LoginActivity'
 
-AppLaunchCountCold = 2
+AppLaunchCountCold = 5
 AppLaunchTimeCSVFile = "launchTime.csv"
 
 #定义跑CPU的次数
