@@ -6,9 +6,9 @@ from config.config import *
 #控制类
 class Controller(object):
     def __init__(self):
-        self.counter = RunPowerCount  #  定义测试的次数
+        self.counter = RunFpsCount  #  定义测试的次数
         #定义收集数据的数组
-        self.alldata = [("deviceid","appversion","timestamp", "power")]  #  要保存的数据，时间戳及电量
+        self.alldata = [("deviceid","appversion","timestamp", "fps（ms）")]  #  要保存的数据，时间戳及电量
 
     #单次测试过程
     def TestProcessOnce(self):
@@ -16,6 +16,9 @@ class Controller(object):
         cmd = 'adb shell dumpsys SurfaceFlinger --latency  %s' % AppPackageName # 获取fps
         content = os.popen(cmd)
         result = content.readlines()
+        fps = int(result[0])/1000/1000   #单位是毫秒
+        print("fps:%s" % fps)
+
         #获取电量的Level
         # for line in result:
         #     if "level" in line:
@@ -23,7 +26,7 @@ class Controller(object):
         #         print("power:%s" % power)
         currenttime = self.GetCurrentTime()  #  获取当前时间
         #将获取到的数据存储到数组中
-        self.alldata.append((TestDeviceID,AppVersion,currenttime,result))  #  写入数据到self.alldata
+        self.alldata.append((TestDeviceID,AppVersion,currenttime,fps))  #  写入数据到self.alldata
 
     #延时函数
     def DeleyTime(self,delaytime):
@@ -56,7 +59,7 @@ class Controller(object):
     def SaveDataToCSV(self):
         # csvfile = open("./../dataFile/%s"% AppLaunchTimeCSVFile,"wb",newline="",encoding="utf-8")  #  创建写入一个csv文件launchTime.csv,加入newline=""，解决python3写入csv出现空白
         # csvfile = open("./../dataFile/%s" % AppLaunchTimeCSVFile, "w", newline="", encoding="utf-8")
-        csvfile = "./../dataFile/power/%s_%s" % (self.GetCurrentTimeString(),AppPowerCSVFile)
+        csvfile = "./../dataFile/fps/%s_%s" % (self.GetCurrentTimeString(),AppFpsCSVFile)
         opencsvfile = open(csvfile, "w",newline="") #加入newline=""，解决python3写入csv出现空白行
         writercsv = csv.writer(opencsvfile)  #  写入文件
         writercsv.writerows(self.alldata)  # 写入数据,将字符串数据转换为字节，存储到CSV中

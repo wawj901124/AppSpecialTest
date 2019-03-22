@@ -40,5 +40,9 @@ AppMeminfoCSVFile = "meminfo.csv"
 #top存储cpu和内容
 AppTopCupMemCSVFile = "topcpumem.csv"
 
+#运行fps次数
+RunFpsCount = 2
+AppFpsCSVFile = "fps.csv"
+
 
 
