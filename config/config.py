@@ -24,8 +24,12 @@ RunCPUCount = 50
 AppCPUOccupancyCSVFile = "cupOccupancy.csv"
 
 #定义跑电量的次数
-RunPowerCount = 50
+RunPowerCount = 5
 AppPowerCSVFile = "power.csv"
+
+#定义跑电池温度的次数
+RunTemperatureCount = 5
+AppTemperatureCSVFile = "temperature.csv"
 
 #定义跑流量的次数
 RunTrafficCount = 50

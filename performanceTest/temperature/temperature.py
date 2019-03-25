@@ -6,28 +6,25 @@ from config.config import *
 #控制类
 class Controller(object):
     def __init__(self):
-        self.counter = RunPowerCount  #  定义测试的次数
+        self.counter = RunTemperatureCount  #  定义测试的次数
         #定义收集数据的数组
-        self.alldata = [("deviceid","appversion","timestamp", "power","temperature")]  #  要保存的数据，时间戳及电量
+        self.alldata = [("deviceid","appversion","timestamp", "temperature")]  #  要保存的数据，时间戳及电量
 
     #单次测试过程
     def TestProcessOnce(self):
         #执行获取电量的命令
-        cmd = 'adb shell dumpsys battery'  # 获取电量
+        cmd = 'adb shell "dumpsys battery | grep temperature"'  # 获取电池温度，单位是0.1摄氏度
         content = os.popen(cmd)
         result = content.readlines()
         #获取电量的Level
         for line in result:
-            if "level" in line:
-                power = line.split(":")[1]
-                print("power:%s" % power)
             if "temperature" in line:
                 temperature = line.split(":")[1]
                 temperature = int(temperature)/10
                 print("temperature:%s" % temperature)
         currenttime = self.GetCurrentTime()  #  获取当前时间
         #将获取到的数据存储到数组中
-        self.alldata.append((TestDeviceID,AppVersion,currenttime,power,temperature))  #  写入数据到self.alldata
+        self.alldata.append((TestDeviceID,AppVersion,currenttime,temperature))  #  写入数据到self.alldata
 
     #延时函数
     def DeleyTime(self,delaytime):
@@ -60,7 +57,7 @@ class Controller(object):
     def SaveDataToCSV(self):
         # csvfile = open("./../dataFile/%s"% AppLaunchTimeCSVFile,"wb",newline="",encoding="utf-8")  #  创建写入一个csv文件launchTime.csv,加入newline=""，解决python3写入csv出现空白
         # csvfile = open("./../dataFile/%s" % AppLaunchTimeCSVFile, "w", newline="", encoding="utf-8")
-        csvfile = "./../dataFile/power/%s_%s" % (self.GetCurrentTimeString(),AppPowerCSVFile)
+        csvfile = "./../dataFile/temperature/%s_%s" % (self.GetCurrentTimeString(),AppTemperatureCSVFile)
         opencsvfile = open(csvfile, "w",newline="") #加入newline=""，解决python3写入csv出现空白行
         writercsv = csv.writer(opencsvfile)  #  写入文件
         writercsv.writerows(self.alldata)  # 写入数据,将字符串数据转换为字节，存储到CSV中
