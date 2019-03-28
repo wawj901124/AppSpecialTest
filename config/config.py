@@ -16,37 +16,49 @@ AppPackageName = 'com.ahdi.qrindo.wallet'
 AppLaunchActivity = 'com.ahdi.wallet.ui.activities.SplashActivity'
 # AppLaunchActivity = 'com.ahdi.wallet.ui.activities.LoginActivity'
 
-AppLaunchCountCold = 5
+AppLaunchCountCold = 2
 AppLaunchTimeCSVFile = "launchTime.csv"
+AppLaunchTimePictureFile = "launchTime.png"
 
 #定义跑CPU的次数
-RunCPUCount = 50
+RunCPUCount = 5
 AppCPUOccupancyCSVFile = "cupOccupancy.csv"
+AppCPUOccupancyPictureFile = "cupOccupancy.png"
 
 #定义跑电量的次数
 RunPowerCount = 5
 AppPowerCSVFile = "power.csv"
+AppPowerPictureFile = "power.png"
 
 #定义跑电池温度的次数
 RunTemperatureCount = 5
 AppTemperatureCSVFile = "temperature.csv"
+AppTemperaturePictureFile = "temperature.png"
 
 #定义跑流量的次数
-RunTrafficCount = 50
+RunTrafficCount = 5
 AppTrafficCSVFile = "traffic.csv"
+AppTrafficPictureFile = "traffic.png"
 
 #定义跑内存的次数
 RunMeminfoCount = 2
 RunMeminfoSecond = 1 # 定义刷新的秒数,每1秒刷新一次
 AppMeminfoCSVFile = "meminfo.csv"
+AppMeminfoPictureFile = "meminfo.png"
 
 
 #top存储cpu和内容
 AppTopCupMemCSVFile = "topcpumem.csv"
+AppTopCupMemPictureFile = "topcpumem.png"
+AppTopCupCSVFile = "topcpu.csv"
+AppTopCupPictureFile = "topcpu.png"
+AppTopMemCSVFile = "topmem.csv"
+AppTopMemPictureFile = "topmem.png"
 
 #运行fps次数
 RunFpsCount = 2
 AppFpsCSVFile = "fps.csv"
+AppFpsPictureFile = "fps.png"
 
 
 
