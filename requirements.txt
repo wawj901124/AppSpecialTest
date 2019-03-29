@@ -27,3 +27,4 @@ uiautomator2==0.1.11
 urllib3==1.24.1
 weditor==0.1.1
 whichcraft==0.5.2
+wxPython==4.0.4
