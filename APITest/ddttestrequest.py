@@ -2,6 +2,14 @@ import requests
 import unittest
 import ddt
 
+dataout = (
+        ("3.3.1","android"),
+        ("3.3.1", "ios"),
+        ("3.0.1", "android"),
+        ("3.0.1", "ios"),
+        ("3.0.2", "ios"),
+)
+
 @ddt.ddt    #使用ddt修饰测试类
 class TestClass(unittest.TestCase):
 
@@ -34,14 +42,16 @@ class TestClass(unittest.TestCase):
         print(res.status_code)
         self.assertTrue(u'http://img.cudn.static.helijia.com' in res.text)
 
-    @ddt.data(
-        ("3.3.1","android"),
-        ("3.3.1", "ios"),
-        ("3.0.1", "android"),
-        ("3.0.1", "ios"),
-    )   #使用data修饰测试方法
+    # @ddt.data(
+    #     ("3.3.1","android"),
+    #     ("3.3.1", "ios"),
+    #     ("3.0.1", "android"),
+    #     ("3.0.1", "ios"),
+    # )   #使用data修饰测试方法
+    @ddt.data(*dataout)    #分离@ddt.data（）中的数据
     @ddt.unpack   #使用unpack表示可以传入2个以上的参数
-    def testPost(self,version,devicetype):
+    def testPost(self,dataout):
+        version, devicetype = dataout
 
         #body数据
         keyword={
