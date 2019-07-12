@@ -1,0 +1,51 @@
+Time:2019-07-10 12:10:10,880; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[1;31;0m 
+Time:2019-07-10 12:10:10,885; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-07-10 12:10:10,887; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:10:10.886656 
+Time:2019-07-10 12:10:10,888; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190710121010 
+Time:2019-07-10 12:10:10,889; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:10:10.888657 
+Time:2019-07-10 12:10:10,890; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-10 12:10:10,891; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\webtestdata/media/report/201907/screenshots/ 
+Time:2019-07-10 12:10:10,896; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[0m 
+Time:2019-07-10 12:10:11,015; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-07-10 12:10:11,017; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:media\report\201907\screenshots\screenpicture_20190710121010.png 
+Time:2019-07-10 12:10:11,018; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-07-10 12:10:11,019; FileName:my_log.py;-> FuncName:printErrorLog;  LineNo.:80; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:打开网页失败,关闭驱动.问题描述：[Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//bjw.halodigit.com%3A9060/nereus/manager/index%23/login&c=UTF-8&f=regular&d=%E6%88%91%E4%BB%AC%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E8%87%B3%20bjw.halodigit.com%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82
+] 
+Time:2019-07-10 12:10:11,035; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: Unable to locate element: /html/body/div[1]/div[2]/form/div/div[1]/input
+ 
+Time:2019-07-10 12:10:11,036; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-07-10 12:10:11,037; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:10:11.036665 
+Time:2019-07-10 12:10:11,038; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190710121011 
+Time:2019-07-10 12:10:16,148; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-07-10 12:10:16,166; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[1;31;0m 
+Time:2019-07-10 12:10:16,169; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[1;31;0m 
+Time:2019-07-10 12:10:16,171; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-07-10 12:10:16,174; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:10:16.172959 
+Time:2019-07-10 12:10:16,175; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190710121016 
+Time:2019-07-10 12:10:16,177; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:10:16.176959 
+Time:2019-07-10 12:10:16,179; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-10 12:10:16,183; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\webtestdata/media/report/201907/screenshots/ 
+Time:2019-07-10 12:10:16,185; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[0m 
+Time:2019-07-10 12:10:16,510; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-07-10 12:10:16,513; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:media\report\201907\screenshots\screenpicture_20190710121016.png 
+Time:2019-07-10 12:10:16,516; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-07-10 12:10:16,520; FileName:my_log.py;-> FuncName:printErrorLog;  LineNo.:80; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: Unable to locate element: /html/body/div[1]/div[2]/form/div/div[1]/input
+ 
+Time:2019-07-10 12:10:16,523; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[0m 
+Time:2019-07-10 12:11:07,547; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[1;31;0m 
+Time:2019-07-10 12:11:07,550; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-07-10 12:11:07,551; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:11:07.550897 
+Time:2019-07-10 12:11:07,552; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190710121107 
+Time:2019-07-10 12:11:07,553; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:11:07.552898 
+Time:2019-07-10 12:11:07,554; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-10 12:11:07,555; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\webtestdata/media/report/201907/screenshots/ 
+Time:2019-07-10 12:11:07,556; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[0m 
+Time:2019-07-10 12:11:08,963; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-07-10 12:11:08,966; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:media\report\201907\screenshots\screenpicture_20190710121107.png 
+Time:2019-07-10 12:11:08,969; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:***** 
+Time:2019-07-10 12:11:08,972; FileName:my_log.py;-> FuncName:printErrorLog;  LineNo.:80; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:打开网页失败,关闭驱动.问题描述：[Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//bjw.halodigit.com%3A9060/nereus/manager/index%23/login&c=UTF-8&f=regular&d=%E6%88%91%E4%BB%AC%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E8%87%B3%20bjw.halodigit.com%20%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82
+] 
+Time:2019-07-10 12:11:22,243; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：HTTPConnectionPool(host='127.0.0.1', port=53460): Max retries exceeded with url: /session/66dd1711-d5e8-4ef0-9ead-8829241b4135/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000D52D320>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)) 
+Time:2019-07-10 12:11:22,246; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-07-10 12:11:22,249; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-10 12:11:22.247738 
+Time:2019-07-10 12:11:22,251; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190710121122 

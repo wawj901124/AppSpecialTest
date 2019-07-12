@@ -1,0 +1,5 @@
+PackageName:com.ahdi.qrindo.wallet
+EventFrequency:1000
+timeSpace:360
+deviceID:810EBM32TZ4K
+seed:1
