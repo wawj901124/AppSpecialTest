@@ -1,0 +1,3 @@
+MonkeyTestCaseName:ManualExitMonkeyTest
+EventFrequency:1
+timeSpace:360

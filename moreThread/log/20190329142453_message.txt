@@ -1,0 +1,150 @@
+----------开始打印日志-----------------
+
+suite read case list success!! 
+alltestnames:['project.ddtTest.ddtTestLogin.TestLogin', 'project.ddtTest.ddtTestHome.TestHome', 'project.ddtTest.ddtTestSettings.TestSettings']
+Running the tests...
+当前时间： 2019-03-29 14:24:54.013065
+时间串： 20190329142454
+已经创建[crash]监视器--------------------
+
+监视的text信息为：很抱歉，“QRindo MCH”已停止运行。.
+
+监视要点击的控件的文本信息为：确定.
+
+已经创建[OK]监视器--------------------
+
+监视的text信息为：OK.
+
+监视要点击的控件的文本信息为：OK.
+
+创建的所有监视器如下:
+ ['crash', 'OK']
+已经启动【crash】监视器--------------------
+
+
+
+
+
+创建的所有监视器如下:
+ ['crash', 'OK']
+创建的所有监视器如下:
+ ['crash', 'OK']
+已经关闭【crash】监视器--------------------
+
+已经关闭【OK】监视器--------------------
+
+等待3秒...
+已经创建[crash]监视器--------------------
+
+监视的text信息为：很抱歉，“QRindo MCH”已停止运行。.
+
+监视要点击的控件的文本信息为：确定.
+
+traffic:['Inter-|   Receive                                                |  Transmit\n', '\n', ' face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed\n', '\n', '  ifb0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', 'ccmni1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', '    lo: 2930844   13064    0    0    0     0          0         0  2930844   13064    0    0    0     0       0          0\n', '\n', ' tunl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', 'ccmni0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', '  sit0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', ' wlan0: 71351267  279510    0    0    0     0          0         0  6630878   79283    0    0    0     0       0          0\n', '\n', '  ifb1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', 'ccmni2:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', 'ip6tnl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0\n', '\n', '  p2p0:       0       0    0    0    0     0          0         0      168       2    0    0    0     0       0          0\n', '\n']
+line:Inter-|   Receive                                                |  Transmit
+
+line:
+
+line: face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+
+line:
+
+line:  ifb0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line:ccmni1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line:    lo: 2930844   13064    0    0    0     0          0         0  2930844   13064    0    0    0     0       0          0
+
+line:
+
+line: tunl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line:ccmni0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line:  sit0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line: wlan0: 71351267  279510    0    0    0     0          0         0  6630878   79283    0    0    0     0       0          0
+
+line##:wlan0:#71351267#279510#0#0#0#0#0#0#6630878#79283#0#0#0#0#0#0
+receive#:71351267
+transmit##:6630878
+line:
+
+line:  ifb1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line:ccmni2:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line:ip6tnl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+line:
+
+line:  p2p0:       0       0    0    0    0     0          0         0      168       2    0    0    0     0       0          0
+
+line:
+
+已经创建[OK]监视器--------------------
+
+监视的text信息为：OK.
+
+监视要点击的控件的文本信息为：OK.
+
+创建的所有监视器如下:
+ ['crash', 'OK']
+已经启动【crash】监视器--------------------
+
+
+
+
+
+创建的所有监视器如下:
+ ['crash', 'OK']
+创建的所有监视器如下:
+ ['crash', 'OK']
+已经关闭【crash】监视器--------------------
+
+已经关闭【OK】监视器--------------------
+
+已经创建[crash]监视器--------------------
+
+监视的text信息为：很抱歉，“QRindo MCH”已停止运行。.
+
+监视要点击的控件的文本信息为：确定.
+
+已经创建[OK]监视器--------------------
+
+监视的text信息为：OK.
+
+监视要点击的控件的文本信息为：OK.
+
+创建的所有监视器如下:
+ ['crash', 'OK']
+已经启动【crash】监视器--------------------
+
+
+
+
+
+创建的所有监视器如下:
+ ['crash', 'OK']
+创建的所有监视器如下:
+ ['crash', 'OK']
+已经关闭【crash】监视器--------------------
+
+已经关闭【OK】监视器--------------------
+
+
+----------日志打印结束-----------------

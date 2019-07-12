@@ -1,0 +1,41 @@
+#头文件、控制monkey发送消息的参数
+type = raw events
+count =10
+speed =1.0
+#以下为monkey命令
+start data >>
+#1.启动应用
+LaunchActivity(com.iapppay.pay.v4,com.iapppay.demo.activity.AcidActivity)
+ProfileWait()
+
+#2.进入demo页
+Tap(355,822)
+ProfileWait()
+
+#3.进入收银台
+Tap(361,749)
+ProfileWait()
+
+#4.点击爱贝币支付方式
+Tap(550,500)
+ProfileWait()
+
+#5.点击确认支付
+Tap(356,997)
+ProfileWait()
+
+#6.点击确认支付
+Tap(366,778)
+ProfileWait()
+
+#7.按返回键
+DispatchPress(4)
+ProfileWait()
+
+#8.按返回键
+DispatchPress(4)
+ProfileWait()
+
+#9.按返回键
+DispatchPress(4)
+ProfileWait()

@@ -1,0 +1,3 @@
+List of devices attached 
+810EBM32TZ4K	device
+

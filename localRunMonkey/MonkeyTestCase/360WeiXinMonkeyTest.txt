@@ -1,0 +1,37 @@
+#头文件、控制monkey发送消息的参数
+type = raw events
+count =10
+speed =1.0
+#以下为monkey命令
+start data >>
+#1.启动应用
+LaunchActivity(com.iapppay.demo360.activity,com.iapppay.demo.activity.AcidActivity)
+ProfileWait()
+
+#2.进入demo页
+Tap(367,821)
+ProfileWait()
+
+#3.点击微信支付方式
+Tap(381,800)
+ProfileWait()
+
+#4.按返回键
+DispatchPress(4)
+ProfileWait()
+
+#5.点击确定
+Tap(527,774)
+ProfileWait()
+
+#6.按返回键
+DispatchPress(4)
+ProfileWait()
+
+#7.按返回键
+DispatchPress(4)
+ProfileWait()
+
+#8.杀掉进程
+RunCmd(am force-stop com.iapppay.demo360.activity)
+ProfileWait()

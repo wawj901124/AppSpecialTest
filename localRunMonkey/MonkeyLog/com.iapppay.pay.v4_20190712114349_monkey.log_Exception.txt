@@ -1,0 +1,2 @@
+./MonkeyLog/com.iapppay.pay.v4_20190712114349_monkey.log_Exception keywords:
+./MonkeyLog/com.iapppay.pay.v4_20190712114349_monkey.log_Exception  frequency:0

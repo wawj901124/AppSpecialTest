@@ -1,0 +1,3 @@
+PackageName:com.iapppay.pay.v4
+EventFrequency:10000
+timeSpace:360

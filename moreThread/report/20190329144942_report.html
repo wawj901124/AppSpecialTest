@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>uiautomation2 python 自动化测试_测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 120%; }
+table       { font-size: 100%; }
+
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<script language="javascript" type="text/javascript">
+output_list = Array();
+
+/*level 调整增加只显示通过用例的分类 --Findyou
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="收起"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="详细"
+        }
+    }
+}
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        //ID修改 点 为 下划线 -Findyou
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">uiautomation2 python 自动化测试_测试报告</h1>
+<p class='attribute'><strong>测试人员 : </strong> 小贝</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-03-29 14:49:42</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:01:46.063067</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 19，错误 19，通过率= 0.00%</p>
+
+<p class='description'>用例执行情况：</p>
+</div>
+
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败+错误{ 0 + 19 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 19 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>project.ddtTest.ddtTestLogin.TestLogin</td>
+    <td class="text-center">5</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">5</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',5)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='ft1_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_login_1___账号密码错误提示___True__True___81234567891234____123456____Incorrect_account_number_or_login_password__Please_try_again_PP001____None___Try_again__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse in">
+    <pre>
+    
+1_1: 
+
+启动包名为[com.ahdi.qrindo.wallet]的应用---------
+等待3秒...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/btn_pwd], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/btn_pwd], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:49:48.556548
+时间串： 20190329144948
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144948.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/btn_pwd], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 115, in test_login
+    outpretoastmessage,outexceptiontext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 74, in definelogin
+    self.baseframe.findbyresourceId_and_click(OTPLogInWithPasswordId)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 65, in findbyresourceId_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144948.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144948.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_login_2___登录账号长度小于8位_login按钮置灰___False__False___1234567____123456____Login___None___Login__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>错误</button>
+    <div id='div_ft1_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>错误</button>
+    <div id='div_ft1_2' class="collapse in">
+    <pre>
+    
+1_2: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:49:53.870852
+时间串： 20190329144953
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144953.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 115, in test_login
+    outpretoastmessage,outexceptiontext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 75, in definelogin
+    self.baseframe.findbyresourceId_and_input(AccountInputId, phonenumberinput)  # 输入账号
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 61, in findbyresourceId_and_input
+    self.ele_input(ele, inputtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 126, in ele_input
+    ele.clear_text()
+AttributeError: 'NoneType' object has no attribute 'clear_text'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144953.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144953.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_login_3___密码长度小于6位_login按钮置灰___False__False___12345678____12345____Login___None___Login__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_3'>错误</button>
+    <div id='div_ft1_3' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_3'>错误</button>
+    <div id='div_ft1_3' class="collapse in">
+    <pre>
+    
+1_3: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:49:59.159155
+时间串： 20190329144959
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144959.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 115, in test_login
+    outpretoastmessage,outexceptiontext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 75, in definelogin
+    self.baseframe.findbyresourceId_and_input(AccountInputId, phonenumberinput)  # 输入账号
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 61, in findbyresourceId_and_input
+    self.ele_input(ele, inputtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 126, in ele_input
+    ele.clear_text()
+AttributeError: 'NoneType' object has no attribute 'clear_text'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144959.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329144959.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_login_4___非8或08开头的账号提示非印尼号___False__False___12345678____123456____Login____You_have_entered_an_invalid_Indonesia_number___None_</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>错误</button>
+    <div id='div_ft1_4' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>错误</button>
+    <div id='div_ft1_4' class="collapse in">
+    <pre>
+    
+1_4: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:04.422456
+时间串： 20190329145004
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145004.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 115, in test_login
+    outpretoastmessage,outexceptiontext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 75, in definelogin
+    self.baseframe.findbyresourceId_and_input(AccountInputId, phonenumberinput)  # 输入账号
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 61, in findbyresourceId_and_input
+    self.ele_input(ele, inputtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 126, in ele_input
+    ele.clear_text()
+AttributeError: 'NoneType' object has no attribute 'clear_text'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145004.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145004.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_login_5___正确的账号密码登录成功___False__False___81122336666____abc123456____Show_all___None__None_</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_5'>错误</button>
+    <div id='div_ft1_5' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_5'>错误</button>
+    <div id='div_ft1_5' class="collapse in">
+    <pre>
+    
+1_5: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:09.734760
+时间串： 20190329145009
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145009.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[RESOURCE_ID=com.ahdi.qrindo.wallet:id/et_login_phone_number], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 115, in test_login
+    outpretoastmessage,outexceptiontext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestLogin.py", line 75, in definelogin
+    self.baseframe.findbyresourceId_and_input(AccountInputId, phonenumberinput)  # 输入账号
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 61, in findbyresourceId_and_input
+    self.ele_input(ele, inputtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 126, in ele_input
+    ele.clear_text()
+AttributeError: 'NoneType' object has no attribute 'clear_text'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145009.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145009.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>project.ddtTest.ddtTestHome.TestHome</td>
+    <td class="text-center">9</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">9</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',9)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='ft2_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_1___点击MYOR然后返回Home页____Home____My_QR__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
+    <div id='div_ft2_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
+    <div id='div_ft2_1' class="collapse in">
+    <pre>
+    
+2_1: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:15.623096
+时间串： 20190329145015
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145015.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145015.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145015.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_2___点击TopUp然后返回Home页____Home____Top_Up__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_2'>错误</button>
+    <div id='div_ft2_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_2'>错误</button>
+    <div id='div_ft2_2' class="collapse in">
+    <pre>
+    
+2_2: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:20.959402
+时间串： 20190329145020
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145020.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145020.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145020.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_3___点击History然后返回Home页____Home____History__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_3'>错误</button>
+    <div id='div_ft2_3' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_3'>错误</button>
+    <div id='div_ft2_3' class="collapse in">
+    <pre>
+    
+2_3: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:26.285706
+时间串： 20190329145026
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145026.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145026.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145026.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_4___点击ShowAll然后返回Home页____Home____Show_all__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_4'>错误</button>
+    <div id='div_ft2_4' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_4'>错误</button>
+    <div id='div_ft2_4' class="collapse in">
+    <pre>
+    
+2_4: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:31.581009
+时间串： 20190329145031
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145031.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Home], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145031.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145031.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_5___点击Balance然后返回Me页____Me____Balance__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_5'>错误</button>
+    <div id='div_ft2_5' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_5'>错误</button>
+    <div id='div_ft2_5' class="collapse in">
+    <pre>
+    
+2_5: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:36.893313
+时间串： 20190329145036
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145036.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145036.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145036.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_6___点击BankCard然后返回Me页____Me____Bank_Card__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_6'>错误</button>
+    <div id='div_ft2_6' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_6'>错误</button>
+    <div id='div_ft2_6' class="collapse in">
+    <pre>
+    
+2_6: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:42.188616
+时间串： 20190329145042
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145042.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145042.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145042.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_7' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_7___点击BankAccount然后返回Me页____Me____Bank_Account__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_7' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_7'>错误</button>
+    <div id='div_ft2_7' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_7' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_7'>错误</button>
+    <div id='div_ft2_7' class="collapse in">
+    <pre>
+    
+2_7: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:47.487919
+时间串： 20190329145047
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145047.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145047.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145047.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_8' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_8___点击IdentityVerification然后返回Me页____Me____Identity_Verification__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_8' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_8'>错误</button>
+    <div id='div_ft2_8' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_8' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_8'>错误</button>
+    <div id='div_ft2_8' class="collapse in">
+    <pre>
+    
+2_8: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:52.797223
+时间串： 20190329145052
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145052.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145052.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145052.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft2_9' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandback_9___点击Settings然后返回Me页____Me____Settings__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft2_9' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_9'>错误</button>
+    <div id='div_ft2_9' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft2_9' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_9'>错误</button>
+    <div id='div_ft2_9' class="collapse in">
+    <pre>
+    
+2_9: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:50:58.100526
+时间串： 20190329145058
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145058.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Me], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 78, in test_clickandback
+    self.defineclickandback(outtestcasediscription,ishomeorme,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestHome.py", line 60, in defineclickandback
+    self.baseframe.findbytext_and_click(homeorme)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145058.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145058.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>project.ddtTest.ddtTestSettings.TestSettings</td>
+    <td class="text-center">5</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">5</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',5)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='ft3_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandbackandlogout_1___点击Settings进入Settings页_点击ChangeLoginPassword后返回Settings___True__False___Change_Login_Password__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_1'>错误</button>
+    <div id='div_ft3_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_1'>错误</button>
+    <div id='div_ft3_1' class="collapse in">
+    <pre>
+    
+3_1: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Settings], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Settings], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:51:03.900858
+时间串： 20190329145103
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145103.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Settings], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 77, in test_clickandbackandlogout
+    self.defineclickandbackandlogout(outtestcasediscription,issettings,islogout,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 57, in defineclickandbackandlogout
+    self.baseframe.findbytext_and_click("Settings")
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145103.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145103.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft3_2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandbackandlogout_2___点击ChangeTransactionPIN后返回Settings___False__False___Change_Transaction_PIN__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft3_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_2'>错误</button>
+    <div id='div_ft3_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft3_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_2'>错误</button>
+    <div id='div_ft3_2' class="collapse in">
+    <pre>
+    
+3_2: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Change Transaction PIN], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Change Transaction PIN], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:51:09.220162
+时间串： 20190329145109
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145109.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Change Transaction PIN], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 77, in test_clickandbackandlogout
+    self.defineclickandbackandlogout(outtestcasediscription,issettings,islogout,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 64, in defineclickandbackandlogout
+    self.baseframe.findbytext_and_click(clickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145109.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145109.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft3_3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandbackandlogout_3___点击AboutQRindo后返回Settings___False__False___About_QRindo__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft3_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_3'>错误</button>
+    <div id='div_ft3_3' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft3_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_3'>错误</button>
+    <div id='div_ft3_3' class="collapse in">
+    <pre>
+    
+3_3: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=About QRindo], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=About QRindo], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:51:14.531466
+时间串： 20190329145114
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145114.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=About QRindo], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 77, in test_clickandbackandlogout
+    self.defineclickandbackandlogout(outtestcasediscription,issettings,islogout,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 64, in defineclickandbackandlogout
+    self.baseframe.findbytext_and_click(clickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145114.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145114.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft3_4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandbackandlogout_4___点击Help后返回Settings___False__False___Help__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft3_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_4'>错误</button>
+    <div id='div_ft3_4' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft3_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_4'>错误</button>
+    <div id='div_ft3_4' class="collapse in">
+    <pre>
+    
+3_4: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Help], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Help], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:51:19.845770
+时间串： 20190329145119
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145119.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Help], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 77, in test_clickandbackandlogout
+    self.defineclickandbackandlogout(outtestcasediscription,issettings,islogout,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 64, in defineclickandbackandlogout
+    self.baseframe.findbytext_and_click(clickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145119.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145119.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft3_5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_clickandbackandlogout_5___点击Logout登出___False__True___Login__</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft3_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft3_5'>错误</button>
+    <div id='div_ft3_5' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft3_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft3_5'>错误</button>
+    <div id='div_ft3_5' class="collapse in">
+    <pre>
+    
+3_5: 
+
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Log Out], method: objInfo, retrying in 0.5 seconds...
+WARNING:root:-32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Log Out], method: objInfo, retrying in 0.6 seconds...
+[1;31;0m
+调用截取图片函数
+当前时间： 2019-03-29 14:51:25.120071
+时间串： 20190329145125
+[0m
+*****
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145125.png
+*****
+[1;31;0m
+出错原因： -32001 Jsonrpc error: &lt;android.support.test.uiautomator.UiObjectNotFoundException&gt; data: UiSelector[TEXT=Log Out], method: objInfo
+[0m
+等待3秒...
+
+
+Traceback (most recent call last):
+  File "D:\djangoworkon\androidautotest\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 77, in test_clickandbackandlogout
+    self.defineclickandbackandlogout(outtestcasediscription,issettings,islogout,outclickelementtext)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\project\ddtTest\ddtTestSettings.py", line 60, in defineclickandbackandlogout
+    self.baseframe.findbytext_and_click("Log Out")
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 107, in findbytext_and_click
+    toastmessage = self.ele_click_and_return_toastmessage(ele,outpretoastmessage)
+  File "D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest\base\baseframe.py", line 132, in ele_click_and_return_toastmessage
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+<img  src="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145125.png
+" alt="picture_shot" height="480" width="270"></img>
+<a    href="file:///
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\functionTest/screenshots/screenpicture_20190329145125.png
+">picture_shot</a>
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>总计</td>
+    <td>19</td>
+    <td>0</td>
+    <td>0</td>
+    <td>19</td>
+    <td>通过率：0.00%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+
+</body>
+</html>

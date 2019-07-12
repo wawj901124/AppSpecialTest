@@ -1,19 +1,41 @@
 from threading import Thread
 from multiprocessing import Process
+import gevent
+
 
 from main.run_all_test import RunAllTest
 from performanceTest.cpuOccupancy.cpuOccupancyPicture import Controller as cpuController
 from performanceTest.traffic.trafficPicture import Controller as traController
 from performanceTest.temperature.temperaturePicture import Controller as temController
 
-# threads = []
 
 
-if __name__ == "__main__":
-    # Thread(target=RunAllTest().run()).start()
-    Thread(target=cpuController().run()).start()
-    Thread(target=traController().run()).start()
-    Thread(target=temController().run()).start()
+threads = []
+t1 =  Thread(target=cpuController().run)
+threads.append(t1)
+t2 =  Thread(target=traController().run)
+threads.append(t2)
+t3 =  Thread(target=temController().run)
+threads.append(t3)
+
+for t in threads:
+    # t.setDaemon(True)   #设置后台执行
+    t.start()   #开始线程
+    # t.join()
+    print("退出线程")
+
+
+
+# processlist = []
+
+
+
+# if __name__ == "__main__":
+#     # Thread(target=RunAllTest().run()).start()
+#
+#     Thread(target=cpuController().run()).start()
+#     Thread(target=traController().run()).start()
+#     Thread(target=temController().run()).start()
 
 # if __name__ == "__main__":
 #     Process(target=RunAllTest().run()).start()

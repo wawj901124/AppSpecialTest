@@ -1,0 +1,2 @@
+./MonkeyLog/com.iapppay.pay.v4_20190712114349_monkey.log_CRASH keywords:
+./MonkeyLog/com.iapppay.pay.v4_20190712114349_monkey.log_CRASH  frequency:0
