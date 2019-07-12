@@ -4,6 +4,7 @@ import gevent
 
 
 from main.run_all_test import RunAllTest
+from monkey.myMonkey import *
 from performanceTest.cpuOccupancy.cpuOccupancyPicture import Controller as cpuController
 from performanceTest.traffic.trafficPicture import Controller as traController
 from performanceTest.temperature.temperaturePicture import Controller as temController
@@ -11,6 +12,8 @@ from performanceTest.temperature.temperaturePicture import Controller as temCont
 
 
 threads = []
+t0 = Thread(target=adbOrder_rand)
+threads.append(t0)
 t1 =  Thread(target=cpuController().run)
 threads.append(t1)
 t2 =  Thread(target=traController().run)
