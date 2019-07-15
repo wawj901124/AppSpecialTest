@@ -1,6 +1,9 @@
 import csv,os,time
 
 from config.config import *
+from monkeyAndPerformance.allCode.util.gettimestr import GetTimeStr
+
+gettimestr = GetTimeStr()  #实例化GetTimeStr
 
 class Meminfo(object):   #定义一个类，生成meminfo信息文件
     def __init__(self):
@@ -63,10 +66,13 @@ class Controller(object):
 
 
     #存储数据到CSV时间
-    def SaveDataToCSV(self):
+    def SaveDataToCSV(self,strtime):
+        basedir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))) + "/" + "codeResult"
+        nyrsfmdir = gettimestr.createNYRSFMdir(basedir,strtime)
+
         # csvfile = open("./../dataFile/%s"% AppLaunchTimeCSVFile,"wb",newline="",encoding="utf-8")  #  创建写入一个csv文件launchTime.csv,加入newline=""，解决python3写入csv出现空白
         # csvfile = open("./../dataFile/%s" % AppLaunchTimeCSVFile, "w", newline="", encoding="utf-8")
-        csvfile = "./../dataFile/meminfo/%s_%s" % (self.GetCurrentTimeString(),AppMeminfoCSVFile)
+        csvfile = "%s/%s_%s" % (nyrsfmdir,strtime,AppMeminfoCSVFile)
         opencsvfile = open(csvfile, "w",newline="") #加入newline=""，解决python3写入csv出现空白行
         writercsv = csv.writer(opencsvfile)  #  写入文件
         writercsv.writerows(self.alldata)  # 写入数据,将字符串数据转换为字节，存储到CSV中
@@ -75,11 +81,12 @@ class Controller(object):
         print("数据保存路径：%s"% csvfile)
         print("内存变化为最后一次数据减去第一次数据")
 
-    def run(self):  #  运行
+    def run(self,strtime):  #  运行
         self.AnalyzeData()
-        self.SaveDataToCSV()
+        self.SaveDataToCSV(strtime)
 
 
 if __name__ == "__main__":
+    strtime = gettimestr.getTimeStr()
     controller = Controller()
-    controller.run()
+    controller.run(strtime)
