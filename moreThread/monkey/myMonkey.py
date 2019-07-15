@@ -101,4 +101,4 @@ def killMonkey():
 
 
 # adbOrder_rand()
-# killMonkey()
+killMonkey()

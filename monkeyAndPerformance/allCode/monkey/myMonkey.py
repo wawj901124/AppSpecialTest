@@ -101,6 +101,8 @@ def adbOrder_rand(timestr):
     excuOrder(cmdorder)
     findException(r"%s/%s_%s_monkey.log" % (logsNYRSFMdir,packagename, timestr), "CRASH")
     findException(r"%s/%s_%s_monkey.log" % (logsNYRSFMdir,packagename, timestr), "Exception")
+    cmdpulltraces = "adb -s %s pull /data/anr/traces.txt %s/%s_traces.txt" % (deviceID, logsNYRSFMdir,timestr)
+    excuOrder(cmdpulltraces)
     gettimestr.outPutMyLog(u"Monkey finished!")
 
 #杀死monkey进程

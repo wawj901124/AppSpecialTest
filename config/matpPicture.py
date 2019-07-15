@@ -1,11 +1,17 @@
 import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei']   #用来正常显示中文标签
 
+import threading
+
+
+lock = threading.Lock()  # 生成锁对象，全局唯一
+
+
 class MatpPicture(object):
 
     #画折现图
     def GetLineChart(self,data,xlabel,ylabel,title,savefilename):
-
+        lock.acquire()  # 获取锁。未获取到的线程会阻塞程序，直到获取到锁才会往下执行
         #遍历数据
         for key,value in data.items():
             print(len(value))
@@ -26,6 +32,7 @@ class MatpPicture(object):
         plt.savefig(savefilename,dpi=300)  # 默认的像素：[6.0,4.0]，分辨率为100，图片尺寸为 600&400
                                             #  指定dpi=200，图片尺寸为 1200*800
                                             # 指定dpi=300，图片尺寸为 1800*1200
+        lock.release()  # 释放锁，归回锁，其他线程可以拿去用了
 
 
 if __name__ == "__main__":

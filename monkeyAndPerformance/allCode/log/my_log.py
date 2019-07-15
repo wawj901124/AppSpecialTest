@@ -2,9 +2,13 @@ import  logging   #导入logging
 from datetime import datetime
 import os
 import ctypes
+import threading
+
+lock = threading.Lock()  # 生成锁对象，全局唯一
 
 class MyLog(object):
     def __init__(self,context):
+        lock.acquire()  # 获取锁。未获取到的线程会阻塞程序，直到获取到锁才会往下执行
         self.context = context
         self.logger = self.createLogger()
         self.log_name = self.createLogFile()
@@ -94,11 +98,13 @@ class MyLog(object):
         self.printLog()
         self.closeConsoleOutputLog()
         self.closeopenFileOutputLog()
+        lock.release()  # 释放锁，归回锁，其他线程可以拿去用了
 
     def runErrorLog(self):
         self.printErrorLog()
         self.closeConsoleOutputLog()
         self.closeopenFileOutputLog()
+        lock.release()  # 释放锁，归回锁，其他线程可以拿去用了
 
 
 if __name__ == "__main__":

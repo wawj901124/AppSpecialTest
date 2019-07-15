@@ -11,8 +11,6 @@ from monkeyAndPerformance.allCode.performanceTest.traffic.traffic import Control
 from monkeyAndPerformance.allCode.util.gettimestr import GetTimeStr  #导入GetTimeStr
 
 
-
-
 if __name__ == "__main__":
     gettimestr = GetTimeStr()  #实例化GetTimeStr
     strtime = gettimestr.getTimeStr()
