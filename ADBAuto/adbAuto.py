@@ -86,6 +86,25 @@ class ADBAUTO(object):
         cmdorder = "adb -s %s shell screenrecord  /data/local/tmp/%s_%s.mp4" % (devicename,self.getTimeStr(),screenrecordname)
         self.excuOrder(cmdorder)
 
+    #抓取log
+    def ADBLogcat(self,devicename):
+        cmdorder = "adb -s %s logcat" % devicename
+        self.excuOrder(cmdorder)
+
+    #抓取log
+    def ADBLogcatTwo(self,devicename):
+        cmdorder = "adb -s %s shell logcat" % devicename
+        self.excuOrder(cmdorder)
+
+    #获取内存
+    def ADBMeminfo(self,devicename,packagename):
+        cmdorder = "adb -s %s shell dumpsys meminfo %s" % (devicename,packagename)   #获取内存中的Heapsize字段的内容，如果有突然下降，就说明可能存在内存泄漏
+        self.excuOrder(cmdorder)
+
+    #获取内存
+    def ADBCpuinfo(self,devicename,packagename):
+        cmdorder = "adb -s %s shell dumpsys cpuinfo |  findstr %s" % (devicename,packagename)   #Windows用findstr，liunx或者mac用grep
+        self.excuOrder(cmdorder)
 
 
 
