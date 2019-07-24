@@ -1,0 +1,3 @@
+1、放到  X:\Python安装目录\Lib\site-packages 下
+2、该库是由pycryptodome在Python3.5下编译的，必须使用在Python3.5版本
+3、pycryptodome是pycrypto(VS2015编译)的替代品，优点：无需开发环境安装VS2015即可使用
