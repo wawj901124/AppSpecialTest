@@ -46,6 +46,12 @@ RunMeminfoSecond = 1 # 定义刷新的秒数,每1秒刷新一次
 AppMeminfoCSVFile = "meminfo.csv"
 AppMeminfoPictureFile = "meminfo.png"
 
+#定义跑内存(获取Heap size内存)的次数
+RunMeminfoHeapSizeCount = 30*6
+RunMeminfoHeapSizeSecond = 1 # 定义刷新的秒数,每1秒刷新一次
+AppMeminfoHeapSizeCSVFile = "meminfoheapsize.csv"
+AppMeminfoHeapSizePictureFile = "meminfoheapsize.png"
+
 
 #top存储cpu和内容
 AppTopCupMemCSVFile = "topcpumem.csv"

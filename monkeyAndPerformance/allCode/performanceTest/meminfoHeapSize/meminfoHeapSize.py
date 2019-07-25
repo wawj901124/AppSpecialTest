@@ -10,7 +10,7 @@ gettimestr = GetTimeStr()  #实例化GetTimeStr
 #控制类
 class Controller(object):
     def __init__(self):
-        self.counter = RunMeminfoCount  #  运行次数
+        self.counter = RunMeminfoHeapSizeCount  #  运行次数
         self.alldata = [("deviceid","appversion","timestamp", "meminfoheapsize")]  #  要保存的数据，时间戳及cup占用率
 
     #单次测试过程
@@ -70,7 +70,7 @@ class Controller(object):
         # logsNYRSFMdir = gettimestr.createNYRSFMdir(currentdir2, strtime)
         # csvfile = open("./../dataFile/%s"% AppLaunchTimeCSVFile,"wb",newline="",encoding="utf-8")  #  创建写入一个csv文件launchTime.csv,加入newline=""，解决python3写入csv出现空白
         # csvfile = open("./../dataFile/%s" % AppLaunchTimeCSVFile, "w", newline="", encoding="utf-8")
-        csvfile = "%s/%s_%s" % (nyrsfmdir,strtime,AppMeminfoCSVFile)
+        csvfile = "%s/%s_%s" % (nyrsfmdir,strtime,AppMeminfoHeapSizeCSVFile)
         opencsvfile = open(csvfile, "w",newline="") #加入newline=""，解决python3写入csv出现空白行
         writercsv = csv.writer(opencsvfile)  #  写入文件
         writercsv.writerows(self.alldata)  # 写入数据,将字符串数据转换为字节，存储到CSV中

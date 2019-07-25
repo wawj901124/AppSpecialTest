@@ -9,6 +9,7 @@ from monkeyAndPerformance.allCode.performanceTest.power.power import Controller 
 from monkeyAndPerformance.allCode.performanceTest.temperature.temperature import Controller as temController   #导入获取temperature内容脚本
 from monkeyAndPerformance.allCode.performanceTest.traffic.traffic import Controller as traController  #导入获取traffic内容脚本
 from monkeyAndPerformance.allCode.util.gettimestr import GetTimeStr  #导入GetTimeStr
+from monkeyAndPerformance.allCode.performanceTest.meminfoHeapSize.meminfoHeapSize import Controller as memheapController  #导入获取Cpu内容脚本
 
 
 if __name__ == "__main__":
@@ -31,6 +32,8 @@ if __name__ == "__main__":
     threads.append(t6)
     t7 =  Thread(target=traController().run,args=(strtime,))
     threads.append(t7)
+    t8 =  Thread(target=memheapController().run,args=(strtime,))
+    threads.append(t8)
     for t in threads:
         # t.setDaemon(True)   #设置后台执行
         t.start()   #开始线程
