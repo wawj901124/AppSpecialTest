@@ -1,0 +1,14 @@
+一、真实andorid手机怎么连接adb:
+    1.通过usb线将手机连接到电脑
+    2.下载安装android手机驱动（驱动精灵、手机助手类的软件）
+    3.在手机找到 设置-》开发者选项-》usb调试
+    4.在弹出来对话框中选择永远允许这台手机进行调试
+    5.adb devices(检查设备是否连接)
+
+
+二、这是andorid手机wifi远程调试：
+    1.真实andorid手机连接adb
+    2.adb devices 能够检测到对应的设备
+    3.adb tcpip 5555   确定手机端和电脑端的wifi通讯端口
+    4.拔掉usb线，再通过adb connect 自己手机ip地址
+    5.adb disconnect 断开远程调试

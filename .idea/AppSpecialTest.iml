@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/functionTest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/functionTest/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/moreThread" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shuoshuo" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (androidautotest)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
