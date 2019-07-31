@@ -6,7 +6,7 @@ class ADBAUTO(object):
     #     self.devicename =
 
     # 使用到的函数adbOrder_rand()，adbOrder_order()，turnHropf()和DumpRead()
-    def excuOrder(orderName):
+    def excuOrder(self,orderName):
         check = os.popen(orderName)
         c = check.read()
         print("执行命令：%s" % orderName)
@@ -20,6 +20,16 @@ class ADBAUTO(object):
         # print("当前时间：%s"% now_time)
         # print("时间串：%s"% timestr)
         return timestr
+
+    #查看adb端口是否被占用
+    def checkADBPortIsOccupied(self):
+        cmdorder = "netstat -ano | findstr 5037"
+        self.excuOrder(cmdorder)
+
+    #杀死进程
+    def killPid(self,pid):
+        cmdorder = "TASKKILL /F /PID %s" % pid
+        self.excuOrder(cmdorder)
 
     #启动adb
     def startADB(self):
@@ -161,6 +171,9 @@ class ADBAUTO(object):
 if __name__ == "__main__":
     devicename = "810EBM32TZ4K"
     adbauto = ADBAUTO()
+    # adbauto.startADB()
+    # adbauto.checkADBPortIsOccupied()
+    # adbauto.killPid("8340")
 
 
 
