@@ -1,0 +1,2 @@
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190715/20190715115328/com.ahdi.qrindo.wallet_20190715115328_monkey.log_Exception keywords:
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190715/20190715115328/com.ahdi.qrindo.wallet_20190715115328_monkey.log_Exception  frequency:0

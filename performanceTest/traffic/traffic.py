@@ -28,7 +28,7 @@ class Controller(object):
             self.DeleyTime(3)
 
             #执行进程ID使用的流量
-            cmd = 'adb shell cat /proc/%s/net/dev'% pid  # 获取流量
+            cmd = 'adb shell cat /proc/%s/net/dev'% pid  # 获取流量   https://testerhome.com/topics/14310
             content = os.popen(cmd)
             traffic = content.readlines()
             print("traffic:%s"% traffic)

@@ -1,0 +1,2 @@
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\moreThread\monkey/MonkeyLog/com.ahdi.qrindo.wallet_20190715105135_monkey.log_CRASH keywords:
+D:\Users\Administrator\PycharmProjects\AppSpecialTest\moreThread\monkey/MonkeyLog/com.ahdi.qrindo.wallet_20190715105135_monkey.log_CRASH  frequency:0

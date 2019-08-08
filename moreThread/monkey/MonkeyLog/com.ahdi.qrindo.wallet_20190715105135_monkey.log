@@ -1,0 +1,1572 @@
+:Monkey: seed=1563562423101 count=10000
+:AllowPackage: com.ahdi.qrindo.wallet
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.dialer.DialtactsActivity (from package com.android.dialer)
+//   - NOT USING main activity com.android.email.activity.EmailActivity (from package com.android.email)
+//   - NOT USING main activity com.meizu.flyme.launcher.Launcher (from package com.meizu.flyme.launcher)
+//   - NOT USING main activity com.meizu.media.gallery.GalleryActivity (from package com.meizu.media.gallery)
+//   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.android.soundrecorder.MzRecorderActivity (from package com.android.soundrecorder)
+//   - NOT USING main activity com.meizu.flyme.alarmclock.DeskClock (from package com.android.alarmclock)
+//   - NOT USING main activity com.meizu.media.camera.CameraLauncher (from package com.meizu.media.camera)
+//   - NOT USING main activity com.meizu.net.map.MainMapActivity (from package com.meizu.net.map)
+//   - NOT USING main activity com.meizu.flyme.venice.modules.home.HomePageActivity (from package com.meizu.compaign)
+//   - NOT USING main activity com.meizu.flyme.notepaper.app.NotePaperActivity (from package com.meizu.notepaper)
+//   - NOT USING main activity com.android.browser.BrowserActivity (from package com.android.browser)
+//   - NOT USING main activity com.meizu.flyme.appcenter.activitys.AppMainActivity (from package com.meizu.mstore)
+//   - NOT USING main activity com.meizu.flyme.update.SystemUpgradeListActivity (from package com.meizu.flyme.update)
+//   - NOT USING main activity com.meizu.flyme.mall.modules.home.HomeActivity (from package com.meizu.flyme.mall)
+//   - NOT USING main activity com.achievo.vipshop.activity.LodingActivity (from package com.achievo.vipshop)
+//   - NOT USING main activity com.meizu.datamigration.capture.DataMigrationActivity (from package com.meizu.datamigration)
+//   - NOT USING main activity com.meizu.net.pedometer.ui.PedometerMainActivitys (from package com.meizu.net.pedometer)
+//   - NOT USING main activity com.meizu.customizecenter.CustomizeCenterActivity (from package com.meizu.customizecenter)
+//   - NOT USING main activity com.meizu.feedback.activity.MainActivity (from package com.meizu.feedback)
+//   - NOT USING main activity com.meizu.media.music.MusicActivity (from package com.meizu.media.music)
+//   - NOT USING main activity com.meizu.flyme.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.meizu.flyme.filemanager.activity.HomeActivity (from package com.meizu.filemanager)
+//   - NOT USING main activity com.meizu.flyme.toolbox.activity.ToolBoxActivity (from package com.meizu.flyme.toolbox)
+//   - NOT USING main activity com.meizu.safe.SecurityMainActivity (from package com.meizu.safe)
+//   - NOT USING main activity com.meizu.mznfcpay.homepage.HomeActivity (from package com.meizu.mznfcpay)
+//   - NOT USING main activity com.meizu.media.reader.ReaderMainActivity (from package com.meizu.media.reader)
+//   - NOT USING main activity com.meizu.voiceassistant.MainActivity (from package com.meizu.voiceassistant)
+//   - NOT USING main activity com.meizu.flyme.gamecenter.activity.DefaultActivity (from package com.meizu.flyme.gamecenter)
+//   - NOT USING main activity com.zhaoxitech.zxbook.splash.SplashActivity (from package com.meizu.media.ebook)
+//   - NOT USING main activity com.android.providers.downloads.ui.DownloadActivity (from package com.android.providers.downloads.ui)
+//   - NOT USING main activity com.meizu.media.life.base.home.HomeActivity (from package com.meizu.media.life)
+//   - NOT USING main activity com.meizu.flyme.weather.modules.home.WeatherMainActivity (from package com.meizu.flyme.weather)
+//   - NOT USING main activity com.meizu.flyme.wallet.activity.WalletTabActivity (from package com.meizu.flyme.wallet)
+//   - NOT USING main activity com.meizu.flyme.calculator.Calculator (from package com.meizu.flyme.calculator)
+//   - NOT USING main activity com.meizu.media.video.VideoMainActivity (from package com.meizu.media.video)
+//   - NOT USING main activity com.ximalaya.ting.android.activity.account.WelComeActivity (from package com.ximalaya.ting.android)
+//   - NOT USING main activity com.autonavi.map.activity.SplashActivity (from package com.autonavi.minimap)
+//   - NOT USING main activity com.netease.nr.biz.ad.AdActivity (from package com.netease.newsreader.activity)
+//   - NOT USING main activity com.qq.reader.activity.SplashActivity (from package com.qq.reader)
+//   - NOT USING main activity com.meizu.mcare.ui.SplashActivity (from package com.meizu.mcare)
+//   - NOT USING main activity com.flyme.videoclips.activity.HomeWeexActivity (from package com.flyme.videoclips)
+//   - NOT USING main activity com.rc.main.MainActivity (from package com.rc.main)
+//   - NOT USING main activity com.scanning.SplashActivity (from package com.scanning)
+//   - NOT USING main activity com.nd.assistance.ui.AssistanceActivity (from package com.nd.assistance)
+//   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+//   - NOT USING main activity com.sina.weibo.SplashActivity (from package com.sina.weibo)
+//   - NOT USING main activity com.dianping.main.guide.SplashScreenActivity (from package com.dianping.v1)
+//   - NOT USING main activity com.meizu.store.newhome.NewHomeActivity (from package com.flyme.meizu.store)
+//   - NOT USING main activity com.github.uiautomator.MainActivity (from package com.github.uiautomator)
+//   - NOT USING main activity com.jingdong.app.mall.main.MainActivity (from package com.jingdong.app.mall)
+//   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+//   + Using main activity com.ahdi.wallet.ui.activities.SplashActivity (from package com.ahdi.qrindo.wallet)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.meizu.flyme.launcher.Launcher (from package com.meizu.flyme.launcher)
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.meizu.battery.BatteryMainActivity (from package com.meizu.battery)
+//   - NOT USING main activity com.meizu.backup.mvp.main.MainBackActivity (from package com.meizu.backup)
+//   - NOT USING main activity com.meizu.connectivitysettings.ConnectivitySettingsMonkeyActivity (from package com.meizu.connectivitysettings)
+// Seeded: 1563562423101
+// Event percentages:
+//   0: 40.0%
+//   1: 0.0%
+//   2: 0.0%
+//   3: 0.0%
+//   4: -0.0%
+//   5: 20.0%
+//   6: 20.0%
+//   7: 10.0%
+//   8: 10.0%
+//   9: 0.0%
+//   10: 0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(128.0,111.0)
+:Sending Touch (ACTION_UP): 0:(126.92231,110.81706)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(199.0,956.0)
+:Sending Touch (ACTION_UP): 0:(200.2562,965.23773)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(422.0,1026.0)
+:Sending Touch (ACTION_UP): 0:(419.03207,1021.2718)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(57.0,999.0)
+:Sending Touch (ACTION_UP): 0:(56.185078,1001.35657)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(699.0,1580.0)
+:Sending Touch (ACTION_UP): 0:(703.61346,1580.4937)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(139.0,899.0)
+:Sending Touch (ACTION_UP): 0:(137.09276,893.222)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(758.0,1027.0)
+:Sending Touch (ACTION_UP): 0:(751.9705,1016.58856)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(247.0,1817.0)
+:Sending Touch (ACTION_UP): 0:(243.20126,1819.6921)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(39.0,60.0)
+:Sending Touch (ACTION_UP): 0:(54.016823,53.65563)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(165.0,395.0)
+:Sending Touch (ACTION_UP): 0:(165.17305,411.37036)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(725.0,1885.0)
+:Sending Touch (ACTION_UP): 0:(723.3819,1886.2211)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(603.0,598.0)
+:Sending Touch (ACTION_UP): 0:(606.17535,598.59735)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.BalanceActivity } in package com.ahdi.qrindo.wallet
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 360 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1015.0,15.0)
+:Sending Touch (ACTION_UP): 0:(1014.6878,13.586711)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(676.0,426.0)
+:Sending Touch (ACTION_UP): 0:(675.21954,423.45703)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(276.0,566.0)
+:Sending Touch (ACTION_UP): 0:(277.96362,568.89105)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.BalanceActivity } in package com.ahdi.qrindo.wallet
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(660.0,741.0)
+:Sending Touch (ACTION_UP): 0:(647.4624,741.1733)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(951.0,158.0)
+:Sending Touch (ACTION_UP): 0:(946.8395,145.59238)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(816.0,1238.0)
+:Sending Touch (ACTION_UP): 0:(811.6645,1257.2203)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    //[calendar_time:2019-07-15 10:51:53.325  system_uptime:3351874]
+    // Sending event #100
+Sleeping for 360 milliseconds
+    //[calendar_time:2019-07-15 10:51:53.821  system_uptime:3352236]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(683.0,343.0)
+:Sending Touch (ACTION_UP): 0:(683.5394,343.92288)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(125.0,942.0)
+:Sending Touch (ACTION_UP): 0:(144.19685,944.3494)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(144.0,430.0)
+:Sending Touch (ACTION_UP): 0:(144.65248,428.89127)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 360 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(198.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(202.02272,1016.43823)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(133.0,150.0)
+:Sending Touch (ACTION_UP): 0:(155.24242,151.25069)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 360 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(903.0,238.0)
+:Sending Touch (ACTION_UP): 0:(902.644,236.3114)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(234.0,1083.0)
+:Sending Touch (ACTION_UP): 0:(240.2604,1094.0917)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(661.0,1476.0)
+:Sending Touch (ACTION_UP): 0:(668.8141,1478.4551)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(447.0,568.0)
+:Sending Touch (ACTION_UP): 0:(447.12158,581.87854)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(972.0,454.0)
+:Sending Touch (ACTION_UP): 0:(973.9042,451.43967)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(870.0,801.0)
+:Sending Touch (ACTION_UP): 0:(878.7905,808.4491)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(0.0,1129.0)
+:Sending Touch (ACTION_UP): 0:(4.127605,1117.6011)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(818.0,1031.0)
+:Sending Touch (ACTION_UP): 0:(818.6721,1030.3806)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(574.0,814.0)
+:Sending Touch (ACTION_UP): 0:(575.5298,802.76556)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(313.0,720.0)
+:Sending Touch (ACTION_UP): 0:(313.7336,719.9546)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(243.0,1776.0)
+:Sending Touch (ACTION_UP): 0:(241.99762,1773.3995)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(381.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(380.33585,1209.7417)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(244.0,515.0)
+:Sending Touch (ACTION_UP): 0:(244.7502,520.68524)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(729.0,1852.0)
+:Sending Touch (ACTION_UP): 0:(719.09406,1831.8434)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+    //[calendar_time:2019-07-15 10:52:14.038  system_uptime:3372453]
+    // Sending event #200
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 360 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(765.0,1612.0)
+:Sending Touch (ACTION_UP): 0:(766.4645,1610.3816)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(285.0,179.0)
+:Sending Touch (ACTION_UP): 0:(282.651,181.45677)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(234.0,793.0)
+:Sending Touch (ACTION_UP): 0:(237.56155,782.5081)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1012.0,1373.0)
+:Sending Touch (ACTION_UP): 0:(1013.8917,1372.0582)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(370.0,58.0)
+:Sending Touch (ACTION_UP): 0:(373.61954,57.809063)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(159.0,408.0)
+:Sending Touch (ACTION_UP): 0:(169.34766,395.46957)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(930.0,635.0)
+:Sending Touch (ACTION_UP): 0:(915.7888,647.1925)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(958.0,136.0)
+:Sending Touch (ACTION_UP): 0:(954.9883,143.0438)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(336.0,428.0)
+:Sending Touch (ACTION_UP): 0:(332.62433,425.86188)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(603.0,860.0)
+:Sending Touch (ACTION_UP): 0:(602.81085,844.1401)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(102.0,366.0)
+:Sending Touch (ACTION_UP): 0:(107.045616,371.86523)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(916.0,685.0)
+:Sending Touch (ACTION_UP): 0:(915.74225,678.1104)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(766.0,324.0)
+:Sending Touch (ACTION_UP): 0:(757.407,335.71613)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(641.0,1539.0)
+:Sending Touch (ACTION_UP): 0:(660.263,1544.8877)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(723.0,700.0)
+:Sending Touch (ACTION_UP): 0:(718.36975,700.16693)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(930.0,198.0)
+:Sending Touch (ACTION_UP): 0:(948.67786,199.10178)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(420.0,362.0)
+:Sending Touch (ACTION_UP): 0:(428.6907,369.77258)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(22.0,1493.0)
+:Sending Touch (ACTION_UP): 0:(16.799534,1490.921)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(554.0,75.0)
+:Sending Touch (ACTION_UP): 0:(555.7457,78.97581)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(823.0,978.0)
+    //[calendar_time:2019-07-15 10:52:34.497  system_uptime:3392911]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(826.05066,976.5787)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(655.0,1916.0)
+:Sending Touch (ACTION_UP): 0:(656.3153,1908.9819)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(723.0,1022.0)
+:Sending Touch (ACTION_UP): 0:(732.672,1003.3814)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(549.0,889.0)
+:Sending Touch (ACTION_UP): 0:(548.1846,887.5369)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1078.0,1725.0)
+:Sending Touch (ACTION_UP): 0:(1076.5637,1726.6023)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(676.0,659.0)
+:Sending Touch (ACTION_UP): 0:(674.70966,655.1809)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(828.0,613.0)
+:Sending Touch (ACTION_UP): 0:(840.60785,621.5026)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(17.0,1234.0)
+:Sending Touch (ACTION_UP): 0:(7.123106,1233.6122)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(392.0,1629.0)
+:Sending Touch (ACTION_UP): 0:(395.01593,1644.5543)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(824.0,1869.0)
+:Sending Touch (ACTION_UP): 0:(820.2058,1874.8081)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(901.0,1422.0)
+:Sending Touch (ACTION_UP): 0:(921.394,1417.2203)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1041.0,1260.0)
+:Sending Touch (ACTION_UP): 0:(1036.3086,1256.5042)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(865.0,1215.0)
+:Sending Touch (ACTION_UP): 0:(864.69226,1215.025)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(799.0,946.0)
+:Sending Touch (ACTION_UP): 0:(805.84753,944.04596)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(86.0,1396.0)
+:Sending Touch (ACTION_UP): 0:(69.95567,1399.3934)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(800.0,1528.0)
+:Sending Touch (ACTION_UP): 0:(810.28125,1525.7924)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(195.0,1132.0)
+:Sending Touch (ACTION_UP): 0:(177.08011,1141.3566)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(170.0,1641.0)
+:Sending Touch (ACTION_UP): 0:(172.29753,1639.7021)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(286.0,1609.0)
+:Sending Touch (ACTION_UP): 0:(288.5229,1598.0165)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(381.0,1870.0)
+:Sending Touch (ACTION_UP): 0:(381.05807,1867.628)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(780.0,1591.0)
+:Sending Touch (ACTION_UP): 0:(773.75854,1601.2505)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(275.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(258.39703,1226.4932)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+    //[calendar_time:2019-07-15 10:52:54.190  system_uptime:3412605]
+    // Sending event #400
+Sleeping for 360 milliseconds
+    //[calendar_time:2019-07-15 10:52:54.552  system_uptime:3412967]
+    // Sending event #400
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(562.0,1591.0)
+:Sending Touch (ACTION_UP): 0:(563.6507,1571.7478)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(227.0,361.0)
+:Sending Touch (ACTION_UP): 0:(230.11237,380.83603)
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.ProfileActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(263.0,1836.0)
+:Sending Touch (ACTION_UP): 0:(262.99112,1853.4462)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(974.0,1792.0)
+:Sending Touch (ACTION_UP): 0:(974.00494,1799.8746)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(243.0,535.0)
+:Sending Touch (ACTION_UP): 0:(241.04529,543.3755)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.BalanceActivity } in package com.ahdi.qrindo.wallet
+:Sending Touch (ACTION_DOWN): 0:(710.0,910.0)
+:Sending Touch (ACTION_UP): 0:(730.1539,903.8544)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1008.0,1671.0)
+:Sending Touch (ACTION_UP): 0:(1006.02026,1654.5642)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(60.0,193.0)
+:Sending Touch (ACTION_UP): 0:(58.634373,183.15134)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(292.0,487.0)
+:Sending Touch (ACTION_UP): 0:(283.9178,484.6578)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(181.0,610.0)
+:Sending Touch (ACTION_UP): 0:(175.16975,607.7864)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.TopUpActivity } in package com.ahdi.qrindo.wallet
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(353.0,149.0)
+:Sending Touch (ACTION_UP): 0:(355.6078,143.83372)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(838.0,1535.0)
+:Sending Touch (ACTION_UP): 0:(841.23114,1534.9795)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(815.0,496.0)
+:Sending Touch (ACTION_UP): 0:(835.7434,509.33612)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(203.0,741.0)
+:Sending Touch (ACTION_UP): 0:(221.4746,750.9924)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(410.0,567.0)
+:Sending Touch (ACTION_UP): 0:(411.48184,576.42773)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.TopUpActivity } in package com.ahdi.qrindo.wallet
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(534.0,352.0)
+:Sending Touch (ACTION_UP): 0:(536.5957,352.96432)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    //[calendar_time:2019-07-15 10:53:14.660  system_uptime:3433075]
+    // Sending event #500
+Sleeping for 360 milliseconds
+    //[calendar_time:2019-07-15 10:53:15.022  system_uptime:3433437]
+    // Sending event #500
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1050.0,795.0)
+:Sending Touch (ACTION_UP): 0:(1040.6051,797.87427)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(175.0,301.0)
+:Sending Touch (ACTION_UP): 0:(177.47386,285.11435)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(155.0,618.0)
+:Sending Touch (ACTION_UP): 0:(173.97821,617.5467)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(173.0,1778.0)
+:Sending Touch (ACTION_UP): 0:(191.25491,1776.2068)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(932.0,1402.0)
+:Sending Touch (ACTION_UP): 0:(938.798,1403.0168)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SettingsActivity } in package com.ahdi.qrindo.wallet
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 360 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(154.0,302.0)
+:Sending Touch (ACTION_UP): 0:(170.09428,299.41745)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.ResetLoginPwdActivity } in package com.ahdi.qrindo.wallet
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(472.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(466.19894,1163.5704)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(20.0,1440.0)
+:Sending Touch (ACTION_UP): 0:(20.593847,1419.8624)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(150.0,1304.0)
+:Sending Touch (ACTION_UP): 0:(154.59074,1313.7003)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(681.0,41.0)
+:Sending Touch (ACTION_UP): 0:(673.3735,40.165024)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(666.0,978.0)
+:Sending Touch (ACTION_UP): 0:(642.20355,982.74567)
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.ForgetPwdActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.ForgetPwdVerifyActivity } in package com.ahdi.qrindo.wallet
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Touch (ACTION_DOWN): 0:(947.0,1422.0)
+:Sending Touch (ACTION_UP): 0:(945.8651,1421.8431)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(848.0,1344.0)
+:Sending Touch (ACTION_UP): 0:(848.5499,1348.5549)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(287.0,1869.0)
+:Sending Touch (ACTION_UP): 0:(297.08163,1873.9478)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(387.0,313.0)
+:Sending Touch (ACTION_UP): 0:(400.247,319.00284)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1056.0,1613.0)
+:Sending Touch (ACTION_UP): 0:(1044.3208,1607.5187)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1072.0,1604.0)
+:Sending Touch (ACTION_UP): 0:(1069.7922,1609.4805)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(835.0,857.0)
+    //[calendar_time:2019-07-15 10:53:34.230  system_uptime:3452645]
+    // Sending event #600
+:Sending Touch (ACTION_UP): 0:(842.14923,862.04785)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(478.0,57.0)
+:Sending Touch (ACTION_UP): 0:(481.30402,36.75451)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(987.0,1256.0)
+:Sending Touch (ACTION_UP): 0:(973.16675,1261.841)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(145.0,864.0)
+:Sending Touch (ACTION_UP): 0:(135.60681,878.48206)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+    // activityResuming(com.ahdi.qrindo.wallet)
+:Sending Touch (ACTION_DOWN): 0:(640.0,1837.0)
+:Sending Touch (ACTION_UP): 0:(630.8182,1847.7878)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(117.0,1624.0)
+:Sending Touch (ACTION_UP): 0:(138.52722,1605.737)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(955.0,1708.0)
+:Sending Touch (ACTION_UP): 0:(954.1296,1700.4175)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1066.0,1675.0)
+:Sending Touch (ACTION_UP): 0:(1069.4152,1678.8196)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(241.0,1379.0)
+:Sending Touch (ACTION_UP): 0:(230.92586,1378.9758)
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SettingsActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(259.0,19.0)
+:Sending Touch (ACTION_UP): 0:(260.4776,20.607937)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(814.0,1182.0)
+:Sending Touch (ACTION_UP): 0:(820.6734,1178.8951)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(217.0,638.0)
+:Sending Touch (ACTION_UP): 0:(216.13326,658.39655)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.AboutActivity } in package com.ahdi.qrindo.wallet
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(932.0,1693.0)
+:Sending Touch (ACTION_UP): 0:(923.9152,1696.4392)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(726.0,1754.0)
+:Sending Touch (ACTION_UP): 0:(735.65784,1755.5614)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(867.0,380.0)
+:Sending Touch (ACTION_UP): 0:(872.5092,378.60873)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(954.0,1258.0)
+:Sending Touch (ACTION_UP): 0:(965.6171,1255.1923)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(599.0,505.0)
+:Sending Touch (ACTION_UP): 0:(598.89087,502.4913)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(71.0,1653.0)
+:Sending Touch (ACTION_UP): 0:(77.08197,1651.421)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(817.0,1552.0)
+:Sending Touch (ACTION_UP): 0:(816.6084,1552.7798)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(288.0,1058.0)
+:Sending Touch (ACTION_UP): 0:(269.8644,1050.1888)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(235.0,312.0)
+:Sending Touch (ACTION_UP): 0:(229.41296,315.16772)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+    //[calendar_time:2019-07-15 10:53:54.231  system_uptime:3472646]
+    // Sending event #700
+Sleeping for 360 milliseconds
+    //[calendar_time:2019-07-15 10:53:54.592  system_uptime:3473007]
+    // Sending event #700
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(357.0,1574.0)
+:Sending Touch (ACTION_UP): 0:(356.95532,1579.4646)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(382.0,634.0)
+:Sending Touch (ACTION_UP): 0:(380.04105,643.30707)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(968.0,1037.0)
+:Sending Touch (ACTION_UP): 0:(977.21564,1023.52386)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1043.0,1385.0)
+:Sending Touch (ACTION_UP): 0:(1044.4348,1383.5068)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(677.0,922.0)
+:Sending Touch (ACTION_UP): 0:(690.1291,933.6493)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(35.0,896.0)
+:Sending Touch (ACTION_UP): 0:(39.938126,895.2823)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(857.0,1499.0)
+:Sending Touch (ACTION_UP): 0:(857.4174,1503.2238)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(796.0,1111.0)
+:Sending Touch (ACTION_UP): 0:(807.5231,1104.9089)
+Sleeping for 360 milliseconds
+    // Allowing start of Intent { cmp=com.ahdi.qrindo.wallet/com.ahdi.lib.utils.base.WebCommonActivity } in package com.ahdi.qrindo.wallet
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 360 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(571.0,465.0)
+:Sending Touch (ACTION_UP): 0:(552.5885,454.6204)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(510.0,829.0)
+:Sending Touch (ACTION_UP): 0:(523.11017,822.5525)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(865.0,188.0)
+:Sending Touch (ACTION_UP): 0:(863.7891,175.9544)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1030.0,222.0)
+:Sending Touch (ACTION_UP): 0:(1039.5322,218.63716)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(946.0,1265.0)
+:Sending Touch (ACTION_UP): 0:(931.6636,1250.7815)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(872.0,760.0)
+:Sending Touch (ACTION_UP): 0:(871.5836,761.5781)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(360.0,387.0)
+:Sending Touch (ACTION_UP): 0:(362.8809,387.06006)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(44.0,1214.0)
+:Sending Touch (ACTION_UP): 0:(35.790493,1226.364)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(217.0,1092.0)
+:Sending Touch (ACTION_UP): 0:(213.52925,1090.1617)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(578.0,1026.0)
+:Sending Touch (ACTION_UP): 0:(573.2604,1027.7844)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(340.0,1.0)
+:Sending Touch (ACTION_UP): 0:(339.2401,0.2514755)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(681.0,1886.0)
+:Sending Touch (ACTION_UP): 0:(679.48975,1883.4938)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(222.0,1565.0)
+:Sending Touch (ACTION_UP): 0:(216.87895,1558.771)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(99.0,324.0)
+:Sending Touch (ACTION_UP): 0:(107.38776,319.32846)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+    //[calendar_time:2019-07-15 10:54:14.445  system_uptime:3492860]
+    // Sending event #800
+Sleeping for 360 milliseconds
+    //[calendar_time:2019-07-15 10:54:14.807  system_uptime:3493222]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(534.0,535.0)
+:Sending Touch (ACTION_UP): 0:(531.57196,531.40924)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(124.0,1125.0)
+:Sending Touch (ACTION_UP): 0:(122.77694,1122.2126)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(808.0,837.0)
+:Sending Touch (ACTION_UP): 0:(806.06604,830.39307)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(391.0,1374.0)
+:Sending Touch (ACTION_UP): 0:(393.4237,1370.0034)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(538.0,130.0)
+:Sending Touch (ACTION_UP): 0:(551.3971,130.5795)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 5    // KEYCODE_CALL
+:Sending Key (ACTION_UP): 5    // KEYCODE_CALL
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(773.0,491.0)
+:Sending Touch (ACTION_UP): 0:(767.2906,481.4104)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(19.0,1546.0)
+:Sending Touch (ACTION_UP): 0:(19.421103,1546.5995)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(883.0,447.0)
+:Sending Touch (ACTION_UP): 0:(885.99414,448.00674)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(149.0,1400.0)
+:Sending Touch (ACTION_UP): 0:(149.84663,1397.2231)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1049.0,1060.0)
+:Sending Touch (ACTION_UP): 0:(1034.5839,1053.7021)
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(692.0,33.0)
+:Sending Touch (ACTION_UP): 0:(681.96606,13.819973)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(991.0,23.0)
+:Sending Touch (ACTION_UP): 0:(973.6885,20.664467)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(573.0,832.0)
+:Sending Touch (ACTION_UP): 0:(584.1224,828.6548)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(171.0,1808.0)
+:Sending Touch (ACTION_UP): 0:(180.28387,1807.7789)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(100.0,1846.0)
+:Sending Touch (ACTION_UP): 0:(102.18232,1854.0514)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.ahdi.qrindo.wallet/com.ahdi.wallet.ui.activities.SplashActivity } in package com.ahdi.qrindo.wallet
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(723.0,130.0)
+:Sending Touch (ACTION_UP): 0:(725.8965,129.03171)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(182.0,867.0)
+:Sending Touch (ACTION_UP): 0:(182.67592,865.00867)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(694.0,1049.0)
+:Sending Touch (ACTION_UP): 0:(684.606,1049.1953)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(19.0,644.0)
+:Sending Touch (ACTION_UP): 0:(29.833927,654.42566)
+    //[calendar_time:2019-07-15 10:54:34.180  system_uptime:3512596]
+    // Sending event #900
+Sleeping for 360 milliseconds
+    //[calendar_time:2019-07-15 10:54:34.547  system_uptime:3512962]
+    // Sending event #900
+:Sending Touch (ACTION_DOWN): 0:(892.0,37.0)
+:Sending Touch (ACTION_UP): 0:(877.96326,36.169888)
+Sleeping for 360 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(428.0,1431.0)
+:Sending Touch (ACTION_UP): 0:(420.5458,1450.7528)
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 360 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 360 milliseconds

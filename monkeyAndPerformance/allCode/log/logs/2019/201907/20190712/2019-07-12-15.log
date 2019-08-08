@@ -1,0 +1,180 @@
+Time:2019-07-12 15:02:31,253; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:02:31.252099 
+Time:2019-07-12 15:02:31,254; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712150231 
+Time:2019-07-12 15:02:31,255; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:02:31,256; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:02:31,257; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance 
+Time:2019-07-12 15:06:18,868; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:06:18.867117 
+Time:2019-07-12 15:06:18,869; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712150618 
+Time:2019-07-12 15:06:18,870; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:06:18,871; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:06:18,872; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance 
+Time:2019-07-12 15:06:18,873; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/2019 
+Time:2019-07-12 15:06:18,874; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:06:18.874118 
+Time:2019-07-12 15:06:18,875; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:06:18,876; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/2019/201907 
+Time:2019-07-12 15:06:18,877; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:06:18.876118 
+Time:2019-07-12 15:06:18,878; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:06:18,879; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/2019/201907/20190712 
+Time:2019-07-12 15:06:18,880; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712150618_monkey.log 
+Time:2019-07-12 15:06:18,891; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 15:06:18,892; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/codeResult/D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/2019/D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/2019/201907/D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712150618_monkey.log' 
+Time:2019-07-12 15:06:18,893; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/codeResult/D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/2019/D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/2019/201907/D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712150618_monkey.log' 
+Time:2019-07-12 15:06:18,894; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 15:10:30,277; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:10:30.276497 
+Time:2019-07-12 15:10:30,277; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712151030 
+Time:2019-07-12 15:10:30,278; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:10:30,279; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:10:30,280; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance 
+Time:2019-07-12 15:10:30,281; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:10:30.281497 
+Time:2019-07-12 15:10:30,282; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:10:30,283; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/2019/201907/20190712 
+Time:2019-07-12 15:10:30,284; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712151030_monkey.log 
+Time:2019-07-12 15:10:30,294; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 15:10:30,296; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/codeResult/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712151030_monkey.log' 
+Time:2019-07-12 15:10:30,297; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/codeResult/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712151030_monkey.log' 
+Time:2019-07-12 15:10:30,297; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 15:10:47,633; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:10:47.633490 
+Time:2019-07-12 15:10:47,634; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712151047 
+Time:2019-07-12 15:10:47,635; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:10:47,636; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:10:47,637; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance 
+Time:2019-07-12 15:10:47,638; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:10:47.638490 
+Time:2019-07-12 15:10:47,639; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:10:47,640; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/2019 
+Time:2019-07-12 15:10:47,641; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/2019/201907 
+Time:2019-07-12 15:10:47,642; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/2019/201907/20190712 
+Time:2019-07-12 15:10:47,642; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712151047_monkey.log 
+Time:2019-07-12 15:10:47,651; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 15:10:47,652; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/codeResult/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712151047_monkey.log' 
+Time:2019-07-12 15:10:47,653; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance/codeResult/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712151047_monkey.log' 
+Time:2019-07-12 15:10:47,654; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 15:13:56,812; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:13:56.811310 
+Time:2019-07-12 15:13:56,813; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712151356 
+Time:2019-07-12 15:13:56,814; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:13:56,815; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:13:56,816; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:13:56,817; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:13:56.816311 
+Time:2019-07-12 15:13:56,817; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:14:07,643; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:14:07.642930 
+Time:2019-07-12 15:14:07,644; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712151407 
+Time:2019-07-12 15:14:07,645; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:14:07,646; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:14:07,647; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:14:07,648; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:14:07.647930 
+Time:2019-07-12 15:14:07,648; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:14:07,649; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:14:07,650; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:14:07,651; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:14:07,652; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712151407_monkey.log 
+Time:2019-07-12 15:14:08,355; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 15:14:08,361; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712151407_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 15:14:08,368; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/com.ahdi.qrindo.wallet_20190712151407_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 15:14:08,371; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 15:26:40,883; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:26:40.882013 
+Time:2019-07-12 15:26:40,884; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712152640 
+Time:2019-07-12 15:26:40,885; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:26:40,886; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:26:40,888; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:26:40,889; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:26:40.888013 
+Time:2019-07-12 15:26:40,890; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:26:40,890; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:26:40,891; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:26:40,892; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:26:40,893; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712152640 
+Time:2019-07-12 15:26:40,895; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712152640_monkey.log 
+Time:2019-07-12 15:26:41,758; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 15:26:41,931; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712152640/com.ahdi.qrindo.wallet_20190712152640_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 15:26:41,937; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712152640/com.ahdi.qrindo.wallet_20190712152640_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 15:26:41,940; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 15:28:38,161; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:28:38.160721 
+Time:2019-07-12 15:28:38,162; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712152838 
+Time:2019-07-12 15:29:47,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Kill monkey success！ 
+Time:2019-07-12 15:29:52,527; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:No monkey Running！ 
+Time:2019-07-12 15:30:50,208; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:30:50.208273 
+Time:2019-07-12 15:30:50,209; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712153050 
+Time:2019-07-12 15:30:50,211; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 15:30:50,212; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 15:30:50,214; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:30:50,214; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:30:50.214274 
+Time:2019-07-12 15:30:50,215; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:30:50,216; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:30:50,217; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:30:50,218; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:30:50,219; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712153050 
+Time:2019-07-12 15:30:50,220; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712153050_monkey.log 
+Time:2019-07-12 15:30:50,928; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 15:30:50,932; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712153050/com.ahdi.qrindo.wallet_20190712153050_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 15:30:50,935; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712153050/com.ahdi.qrindo.wallet_20190712153050_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 15:30:50,937; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 15:38:15,884; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:38:15.883764 
+Time:2019-07-12 15:38:15,885; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712153815 
+Time:2019-07-12 15:38:28,813; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:38:28.813504 
+Time:2019-07-12 15:38:28,814; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712153828 
+Time:2019-07-12 15:39:51,098; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:39:51.098210 
+Time:2019-07-12 15:39:51,099; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712153951 
+Time:2019-07-12 15:41:29,817; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:41:29.816857 
+Time:2019-07-12 15:41:29,817; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712154129 
+Time:2019-07-12 15:41:55,393; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:41:55,396; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:41:55.393320 
+Time:2019-07-12 15:41:55,400; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:41:55,403; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:41:55,406; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:41:55,410; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:41:55,414; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712154129 
+Time:2019-07-12 15:48:07,037; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:48:07.036576 
+Time:2019-07-12 15:48:07,038; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712154807 
+Time:2019-07-12 15:48:19,672; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:48:19.671299 
+Time:2019-07-12 15:48:19,673; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712154819 
+Time:2019-07-12 15:48:24,763; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:48:24,767; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:48:24.764590 
+Time:2019-07-12 15:48:24,770; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:48:24,773; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:48:24,776; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:48:24,779; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:48:24,783; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712154819 
+Time:2019-07-12 15:49:32,435; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:49:32.434461 
+Time:2019-07-12 15:49:32,435; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712154932 
+Time:2019-07-12 15:50:08,749; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:50:08.749538 
+Time:2019-07-12 15:50:08,750; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712155008 
+Time:2019-07-12 15:50:16,855; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:50:16,859; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:50:16.856002 
+Time:2019-07-12 15:50:16,862; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:50:16,865; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:50:16,868; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:50:16,871; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:50:16,875; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712155008 
+Time:2019-07-12 15:53:06,547; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:53:06.546707 
+Time:2019-07-12 15:53:06,548; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712155306 
+Time:2019-07-12 15:53:14,662; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:53:14,666; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:53:14.663172 
+Time:2019-07-12 15:53:14,669; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:53:14,673; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:53:14,676; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:53:14,679; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:53:14,683; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712155306 
+Time:2019-07-12 15:55:23,103; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:55:23.102518 
+Time:2019-07-12 15:55:23,104; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712155523 
+Time:2019-07-12 15:55:31,208; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:55:31,212; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:55:31.209982 
+Time:2019-07-12 15:55:31,215; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:55:31,218; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:55:31,221; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:55:31,224; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:55:31,228; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712155523 
+Time:2019-07-12 15:57:28,698; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:57:28.698702 
+Time:2019-07-12 15:57:28,699; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712155728 
+Time:2019-07-12 15:57:37,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:57:37.450202 
+Time:2019-07-12 15:57:37,451; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712155737 
+Time:2019-07-12 15:57:48,701; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 15:57:48,702; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 15:57:48.701846 
+Time:2019-07-12 15:57:48,703; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 15:57:48,705; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 15:57:48,706; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 15:57:48,707; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 15:57:48,709; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712155737 

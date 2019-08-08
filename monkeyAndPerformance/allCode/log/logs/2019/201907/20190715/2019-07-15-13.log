@@ -1,0 +1,9 @@
+Time:2019-07-15 13:55:54,664; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-15 13:55:54.664739 
+Time:2019-07-15 13:55:54,665; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190715135554 
+Time:2019-07-15 13:55:55,820; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-15 13:55:55,821; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-15 13:55:55.821805 
+Time:2019-07-15 13:55:55,822; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-15 13:55:55,823; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-15 13:55:55,824; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-15 13:55:55,824; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190715 
+Time:2019-07-15 13:55:55,826; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190715/20190715135554 

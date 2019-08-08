@@ -1,0 +1,870 @@
+Time:2019-07-12 17:05:29,275; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:05:29.275097 
+Time:2019-07-12 17:05:29,276; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712170529 
+Time:2019-07-12 17:06:46,649; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:06:46.649523 
+Time:2019-07-12 17:06:46,650; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712170646 
+Time:2019-07-12 17:06:58,016; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:06:58.016173 
+Time:2019-07-12 17:06:58,017; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712170658 
+Time:2019-07-12 17:07:15,614; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:07:15.613179 
+Time:2019-07-12 17:07:15,614; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712170715 
+Time:2019-07-12 17:07:36,806; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:07:36.805392 
+Time:2019-07-12 17:07:36,807; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712170736 
+Time:2019-07-12 17:11:14,647; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:11:14.647851 
+Time:2019-07-12 17:11:14,648; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712171114 
+Time:2019-07-12 17:11:23,461; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：1 
+Time:2019-07-12 17:11:32,273; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：0 
+Time:2019-07-12 17:11:32,276; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:11:32,278; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:11:32.277860 
+Time:2019-07-12 17:11:32,281; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:11:32,284; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:11:32,286; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:11:32,289; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:11:32,292; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712171114 
+Time:2019-07-12 17:17:59,668; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:17:59.667017 
+Time:2019-07-12 17:17:59,669; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712171759 
+Time:2019-07-12 17:17:59,675; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:17:59,676; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K') 
+Time:2019-07-12 17:17:59,678; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:17:59,679; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:17:59.678018 
+Time:2019-07-12 17:17:59,679; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:17:59,680; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:17:59,681; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45212 
+Time:2019-07-12 17:17:59,682; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:17:59,683; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:17:59,683; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712171759 
+Time:2019-07-12 17:17:59,684; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712171759_monkey.log 
+Time:2019-07-12 17:17:59,688; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:17:59,689; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:17:59.688018 
+Time:2019-07-12 17:17:59,690; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:17:59,691; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:17:59,692; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:17:59,693; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:17:59,695; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712171759 
+Time:2019-07-12 17:17:59,699; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45220 
+Time:2019-07-12 17:17:59,702; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45240 
+Time:2019-07-12 17:17:59,720; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45244 
+Time:2019-07-12 17:17:59,743; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45272 
+Time:2019-07-12 17:17:59,783; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45292 
+Time:2019-07-12 17:17:59,822; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45320 
+Time:2019-07-12 17:17:59,829; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45348 
+Time:2019-07-12 17:18:04,951; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：99 
+Time:2019-07-12 17:18:07,852; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：99 
+Time:2019-07-12 17:18:07,854; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：99 
+Time:2019-07-12 17:18:07,887; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：99 
+Time:2019-07-12 17:18:08,131; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：1 
+Time:2019-07-12 17:18:10,059; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：98 
+Time:2019-07-12 17:18:10,982; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：99 
+Time:2019-07-12 17:18:13,021; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：98 
+Time:2019-07-12 17:18:13,024; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：98 
+Time:2019-07-12 17:18:13,032; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：98 
+Time:2019-07-12 17:18:15,135; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：97 
+Time:2019-07-12 17:18:16,575; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：0 
+Time:2019-07-12 17:18:16,575; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:18:16,578; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:18:16.576984 
+Time:2019-07-12 17:18:16,580; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:18:16,583; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:18:16,585; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:18:16,588; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:18:16,591; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712171759 
+Time:2019-07-12 17:18:18,110; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：97 
+Time:2019-07-12 17:18:18,111; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：97 
+Time:2019-07-12 17:18:18,118; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：97 
+Time:2019-07-12 17:18:19,179; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：98 
+Time:2019-07-12 17:18:20,227; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：96 
+Time:2019-07-12 17:18:23,210; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：96 
+Time:2019-07-12 17:18:23,214; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：96 
+Time:2019-07-12 17:18:23,215; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：96 
+Time:2019-07-12 17:18:25,307; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：95 
+Time:2019-07-12 17:18:27,346; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：97 
+Time:2019-07-12 17:18:28,277; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：95 
+Time:2019-07-12 17:18:28,302; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：95 
+Time:2019-07-12 17:18:28,308; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：95 
+Time:2019-07-12 17:18:30,384; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：94 
+Time:2019-07-12 17:18:33,383; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：94 
+Time:2019-07-12 17:18:33,398; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：94 
+Time:2019-07-12 17:18:33,407; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：94 
+Time:2019-07-12 17:18:35,506; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：93 
+Time:2019-07-12 17:18:35,517; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：96 
+Time:2019-07-12 17:18:38,484; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：93 
+Time:2019-07-12 17:18:38,496; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：93 
+Time:2019-07-12 17:18:38,506; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：93 
+Time:2019-07-12 17:18:40,583; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：92 
+Time:2019-07-12 17:18:43,576; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：92 
+Time:2019-07-12 17:18:43,580; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：92 
+Time:2019-07-12 17:18:43,583; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：92 
+Time:2019-07-12 17:18:43,692; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：95 
+Time:2019-07-12 17:18:45,684; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：91 
+Time:2019-07-12 17:18:48,657; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：91 
+Time:2019-07-12 17:18:48,659; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：91 
+Time:2019-07-12 17:18:48,675; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：91 
+Time:2019-07-12 17:18:50,760; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：90 
+Time:2019-07-12 17:18:51,845; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：94 
+Time:2019-07-12 17:18:53,752; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：90 
+Time:2019-07-12 17:18:53,757; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：90 
+Time:2019-07-12 17:18:53,761; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：90 
+Time:2019-07-12 17:18:55,883; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：89 
+Time:2019-07-12 17:18:58,866; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：89 
+Time:2019-07-12 17:18:58,870; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：89 
+Time:2019-07-12 17:18:58,874; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：89 
+Time:2019-07-12 17:19:00,041; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：93 
+Time:2019-07-12 17:19:00,955; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：88 
+Time:2019-07-12 17:19:03,962; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：88 
+Time:2019-07-12 17:19:03,964; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：88 
+Time:2019-07-12 17:19:03,967; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：88 
+Time:2019-07-12 17:19:06,003; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：87 
+Time:2019-07-12 17:19:08,263; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：92 
+Time:2019-07-12 17:19:09,107; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：87 
+Time:2019-07-12 17:19:09,110; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：87 
+Time:2019-07-12 17:19:09,113; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：87 
+Time:2019-07-12 17:19:11,106; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：86 
+Time:2019-07-12 17:19:14,229; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：86 
+Time:2019-07-12 17:19:14,232; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：86 
+Time:2019-07-12 17:19:14,235; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：86 
+Time:2019-07-12 17:19:16,196; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：85 
+Time:2019-07-12 17:19:16,477; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：91 
+Time:2019-07-12 17:19:19,348; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：85 
+Time:2019-07-12 17:19:19,351; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：85 
+Time:2019-07-12 17:19:19,353; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：85 
+Time:2019-07-12 17:19:21,306; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：84 
+Time:2019-07-12 17:19:24,439; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：84 
+Time:2019-07-12 17:19:24,439; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：84 
+Time:2019-07-12 17:19:24,440; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：84 
+Time:2019-07-12 17:19:24,441; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：84 
+Time:2019-07-12 17:19:24,692; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：90 
+Time:2019-07-12 17:19:26,394; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：83 
+Time:2019-07-12 17:19:29,536; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：83 
+Time:2019-07-12 17:19:29,537; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：83 
+Time:2019-07-12 17:19:29,541; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：83 
+Time:2019-07-12 17:19:31,495; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：82 
+Time:2019-07-12 17:19:32,873; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：89 
+Time:2019-07-12 17:19:34,659; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：82 
+Time:2019-07-12 17:19:34,673; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：82 
+Time:2019-07-12 17:19:34,674; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：82 
+Time:2019-07-12 17:19:36,584; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：81 
+Time:2019-07-12 17:19:39,834; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：81 
+Time:2019-07-12 17:19:39,837; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：81 
+Time:2019-07-12 17:19:39,847; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：81 
+Time:2019-07-12 17:19:41,103; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：88 
+Time:2019-07-12 17:19:41,748; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：80 
+Time:2019-07-12 17:19:44,993; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：80 
+Time:2019-07-12 17:19:44,995; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：80 
+Time:2019-07-12 17:19:45,000; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：80 
+Time:2019-07-12 17:19:46,903; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：79 
+Time:2019-07-12 17:19:49,383; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：87 
+Time:2019-07-12 17:19:50,123; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：79 
+Time:2019-07-12 17:19:50,132; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：79 
+Time:2019-07-12 17:19:50,136; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：79 
+Time:2019-07-12 17:19:52,025; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：78 
+Time:2019-07-12 17:19:55,208; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：78 
+Time:2019-07-12 17:19:55,221; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：78 
+Time:2019-07-12 17:19:55,229; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：78 
+Time:2019-07-12 17:19:57,113; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：77 
+Time:2019-07-12 17:19:57,580; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：86 
+Time:2019-07-12 17:20:00,321; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：77 
+Time:2019-07-12 17:20:00,325; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：77 
+Time:2019-07-12 17:20:00,330; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：77 
+Time:2019-07-12 17:20:02,243; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：76 
+Time:2019-07-12 17:20:05,460; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：76 
+Time:2019-07-12 17:20:05,493; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：76 
+Time:2019-07-12 17:20:05,500; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：76 
+Time:2019-07-12 17:20:05,793; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：85 
+Time:2019-07-12 17:20:07,343; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：75 
+Time:2019-07-12 17:20:10,550; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：75 
+Time:2019-07-12 17:20:10,591; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：75 
+Time:2019-07-12 17:20:10,638; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：75 
+Time:2019-07-12 17:20:12,471; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：74 
+Time:2019-07-12 17:20:14,011; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：84 
+Time:2019-07-12 17:20:15,655; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：74 
+Time:2019-07-12 17:20:15,664; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：74 
+Time:2019-07-12 17:20:15,687; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：74 
+Time:2019-07-12 17:20:17,554; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：73 
+Time:2019-07-12 17:20:20,733; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：73 
+Time:2019-07-12 17:20:20,751; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：73 
+Time:2019-07-12 17:20:20,760; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：73 
+Time:2019-07-12 17:20:22,206; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：83 
+Time:2019-07-12 17:20:22,683; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：72 
+Time:2019-07-12 17:20:25,857; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：72 
+Time:2019-07-12 17:20:25,863; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：72 
+Time:2019-07-12 17:20:25,868; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：72 
+Time:2019-07-12 17:20:27,763; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：71 
+Time:2019-07-12 17:20:30,437; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：82 
+Time:2019-07-12 17:20:30,955; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：71 
+Time:2019-07-12 17:20:30,956; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：71 
+Time:2019-07-12 17:20:30,964; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：71 
+Time:2019-07-12 17:20:32,869; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：70 
+Time:2019-07-12 17:20:36,064; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：70 
+Time:2019-07-12 17:20:36,065; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：70 
+Time:2019-07-12 17:20:36,081; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：70 
+Time:2019-07-12 17:20:37,988; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：69 
+Time:2019-07-12 17:20:38,559; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：81 
+Time:2019-07-12 17:20:41,186; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：69 
+Time:2019-07-12 17:20:41,188; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：69 
+Time:2019-07-12 17:20:41,197; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：69 
+Time:2019-07-12 17:20:43,080; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：68 
+Time:2019-07-12 17:20:46,279; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：68 
+Time:2019-07-12 17:20:46,279; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：68 
+Time:2019-07-12 17:20:46,281; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：68 
+Time:2019-07-12 17:20:46,281; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：68 
+Time:2019-07-12 17:20:46,283; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：68 
+Time:2019-07-12 17:20:46,780; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：80 
+Time:2019-07-12 17:20:48,212; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：67 
+Time:2019-07-12 17:20:51,403; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：67 
+Time:2019-07-12 17:20:51,406; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：67 
+Time:2019-07-12 17:20:51,408; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：67 
+Time:2019-07-12 17:20:53,304; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：66 
+Time:2019-07-12 17:20:54,977; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：79 
+Time:2019-07-12 17:20:56,507; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：66 
+Time:2019-07-12 17:20:56,508; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：66 
+Time:2019-07-12 17:20:56,514; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：66 
+Time:2019-07-12 17:20:58,395; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：65 
+Time:2019-07-12 17:21:01,594; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：65 
+Time:2019-07-12 17:21:01,594; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：65 
+Time:2019-07-12 17:21:01,595; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：65 
+Time:2019-07-12 17:21:01,606; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：65 
+Time:2019-07-12 17:21:03,172; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：78 
+Time:2019-07-12 17:21:03,466; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：64 
+Time:2019-07-12 17:21:06,714; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：64 
+Time:2019-07-12 17:21:06,717; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：64 
+Time:2019-07-12 17:21:06,721; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：64 
+Time:2019-07-12 17:21:08,581; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：63 
+Time:2019-07-12 17:21:11,362; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：77 
+Time:2019-07-12 17:21:11,837; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：63 
+Time:2019-07-12 17:21:11,853; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：63 
+Time:2019-07-12 17:21:11,860; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：63 
+Time:2019-07-12 17:21:13,726; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：62 
+Time:2019-07-12 17:21:16,929; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：62 
+Time:2019-07-12 17:21:16,946; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：62 
+Time:2019-07-12 17:21:16,975; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：62 
+Time:2019-07-12 17:21:18,804; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：61 
+Time:2019-07-12 17:21:19,223; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 17:21:19,235; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712171759/com.ahdi.qrindo.wallet_20190712171759_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 17:21:19,247; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712171759/com.ahdi.qrindo.wallet_20190712171759_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 17:21:19,249; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 17:21:19,589; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：76 
+Time:2019-07-12 17:21:22,094; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：61 
+Time:2019-07-12 17:21:22,096; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：61 
+Time:2019-07-12 17:21:22,105; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：61 
+Time:2019-07-12 17:21:23,920; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：60 
+Time:2019-07-12 17:21:27,262; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：60 
+Time:2019-07-12 17:21:27,264; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：60 
+Time:2019-07-12 17:21:27,275; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：60 
+Time:2019-07-12 17:21:27,815; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：75 
+Time:2019-07-12 17:21:29,070; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：59 
+Time:2019-07-12 17:21:32,431; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：59 
+Time:2019-07-12 17:21:32,432; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：59 
+Time:2019-07-12 17:21:32,442; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：59 
+Time:2019-07-12 17:21:34,196; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：58 
+Time:2019-07-12 17:21:36,061; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：74 
+Time:2019-07-12 17:21:37,573; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：58 
+Time:2019-07-12 17:21:37,574; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：58 
+Time:2019-07-12 17:21:37,579; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：58 
+Time:2019-07-12 17:21:39,322; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：57 
+Time:2019-07-12 17:21:42,713; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：57 
+Time:2019-07-12 17:21:42,714; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：57 
+Time:2019-07-12 17:21:42,717; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：57 
+Time:2019-07-12 17:21:44,333; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：73 
+Time:2019-07-12 17:21:44,423; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：56 
+Time:2019-07-12 17:21:47,889; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：56 
+Time:2019-07-12 17:21:47,890; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：56 
+Time:2019-07-12 17:21:47,892; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：56 
+Time:2019-07-12 17:21:49,529; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：55 
+Time:2019-07-12 17:21:52,557; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：72 
+Time:2019-07-12 17:21:53,028; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：55 
+Time:2019-07-12 17:21:53,030; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：55 
+Time:2019-07-12 17:21:53,038; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：55 
+Time:2019-07-12 17:21:54,619; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：54 
+Time:2019-07-12 17:21:58,182; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：54 
+Time:2019-07-12 17:21:58,182; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：54 
+Time:2019-07-12 17:21:58,183; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：54 
+Time:2019-07-12 17:21:58,188; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：54 
+Time:2019-07-12 17:21:59,739; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：53 
+Time:2019-07-12 17:22:00,741; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：71 
+Time:2019-07-12 17:22:03,336; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：53 
+Time:2019-07-12 17:22:03,338; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：53 
+Time:2019-07-12 17:22:03,342; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：53 
+Time:2019-07-12 17:22:04,869; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：52 
+Time:2019-07-12 17:22:08,505; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：52 
+Time:2019-07-12 17:22:08,514; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：52 
+Time:2019-07-12 17:22:08,516; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：52 
+Time:2019-07-12 17:22:08,968; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：70 
+Time:2019-07-12 17:22:09,989; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：51 
+Time:2019-07-12 17:22:13,640; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：51 
+Time:2019-07-12 17:22:13,641; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：51 
+Time:2019-07-12 17:22:13,641; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：51 
+Time:2019-07-12 17:22:13,642; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：51 
+Time:2019-07-12 17:22:15,095; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：50 
+Time:2019-07-12 17:22:17,191; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：69 
+Time:2019-07-12 17:22:18,828; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：50 
+Time:2019-07-12 17:22:18,845; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：50 
+Time:2019-07-12 17:22:18,846; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：50 
+Time:2019-07-12 17:22:20,219; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：49 
+Time:2019-07-12 17:22:23,950; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：49 
+Time:2019-07-12 17:22:23,974; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：49 
+Time:2019-07-12 17:22:23,977; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:ftp统计剩余运行次数为：49 
+Time:2019-07-12 17:22:25,293; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：48 
+Time:2019-07-12 17:22:25,363; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：68 
+Time:2019-07-12 17:27:45,224; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:27:45.224509 
+Time:2019-07-12 17:27:45,225; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712172745 
+Time:2019-07-12 17:27:45,227; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:27:45,228; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49044 
+Time:2019-07-12 17:27:45,229; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K') 
+Time:2019-07-12 17:27:45,229; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49048 
+Time:2019-07-12 17:27:45,230; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:27:45,231; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49052 
+Time:2019-07-12 17:27:45,232; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:27:45,233; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:27:45.233510 
+Time:2019-07-12 17:27:45,234; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:27:45,236; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49064 
+Time:2019-07-12 17:27:45,237; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:27:45.230510 
+Time:2019-07-12 17:27:45,238; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:27:45,239; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:27:45,240; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:27:45,241; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:27:45,241; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172745 
+Time:2019-07-12 17:27:45,245; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:27:45,246; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:27:45,247; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:27:45,248; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172745 
+Time:2019-07-12 17:27:45,248; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712172745_monkey.log 
+Time:2019-07-12 17:27:45,252; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49076 
+Time:2019-07-12 17:27:45,264; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49112 
+Time:2019-07-12 17:27:45,274; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49132 
+Time:2019-07-12 17:27:45,283; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45156 
+Time:2019-07-12 17:27:50,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：49 
+Time:2019-07-12 17:28:10,458; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Kill monkey success！ 
+Time:2019-07-12 17:28:15,171; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:No monkey Running！ 
+Time:2019-07-12 17:28:25,513; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:No monkey Running！ 
+Time:2019-07-12 17:28:43,425; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:28:43.425838 
+Time:2019-07-12 17:28:43,426; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712172843 
+Time:2019-07-12 17:28:43,427; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:28:43,427; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:28:43,428; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45240 
+Time:2019-07-12 17:28:43,429; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K') 
+Time:2019-07-12 17:28:43,429; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:28:43,429; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:28:43,430; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：47012 
+Time:2019-07-12 17:28:43,431; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:28:43.430838 
+Time:2019-07-12 17:28:43,432; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:28:43,433; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:28:43,433; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:28:43,434; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：45112 
+Time:2019-07-12 17:28:43,434; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:28:43,435; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49032 
+Time:2019-07-12 17:28:43,436; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:28:43,437; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:28:43,438; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:28:43.437839 
+Time:2019-07-12 17:28:43,440; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：47748 
+Time:2019-07-12 17:28:43,441; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:28:43,442; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:28:43,444; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:28:43,445; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:28:43,446; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:28:43,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712172843_monkey.log 
+Time:2019-07-12 17:28:43,456; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：36168 
+Time:2019-07-12 17:28:43,460; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：44760 
+Time:2019-07-12 17:28:43,466; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：49140 
+Time:2019-07-12 17:28:48,608; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,550; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,550; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,552; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,552; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,552; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,553; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,553; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：49 
+Time:2019-07-12 17:28:51,553; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：49 
+Time:2019-07-12 17:28:52,012; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：49 
+Time:2019-07-12 17:28:53,739; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：48 
+Time:2019-07-12 17:28:54,694; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：29 
+Time:2019-07-12 17:28:56,675; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：48 
+Time:2019-07-12 17:28:56,680; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：48 
+Time:2019-07-12 17:28:56,683; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：48 
+Time:2019-07-12 17:28:58,821; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：47 
+Time:2019-07-12 17:29:00,452; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：48 
+Time:2019-07-12 17:29:01,845; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：47 
+Time:2019-07-12 17:29:01,852; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：47 
+Time:2019-07-12 17:29:01,855; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：47 
+Time:2019-07-12 17:29:02,870; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：28 
+Time:2019-07-12 17:29:03,903; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：46 
+Time:2019-07-12 17:29:06,950; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：46 
+Time:2019-07-12 17:29:06,958; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：46 
+Time:2019-07-12 17:29:06,958; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：46 
+Time:2019-07-12 17:29:06,959; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：46 
+Time:2019-07-12 17:29:09,182; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：45 
+Time:2019-07-12 17:29:09,192; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：47 
+Time:2019-07-12 17:29:11,060; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：27 
+Time:2019-07-12 17:29:12,040; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：45 
+Time:2019-07-12 17:29:12,047; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：45 
+Time:2019-07-12 17:29:12,047; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：45 
+Time:2019-07-12 17:29:12,047; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：45 
+Time:2019-07-12 17:29:14,277; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：44 
+Time:2019-07-12 17:29:17,152; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：44 
+Time:2019-07-12 17:29:17,154; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：44 
+Time:2019-07-12 17:29:17,160; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：44 
+Time:2019-07-12 17:29:17,531; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：46 
+Time:2019-07-12 17:29:19,241; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：26 
+Time:2019-07-12 17:29:19,402; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：43 
+Time:2019-07-12 17:29:22,317; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：43 
+Time:2019-07-12 17:29:22,321; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：43 
+Time:2019-07-12 17:29:22,326; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：43 
+Time:2019-07-12 17:29:24,478; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：42 
+Time:2019-07-12 17:29:25,893; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：45 
+Time:2019-07-12 17:29:27,436; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：42 
+Time:2019-07-12 17:29:27,445; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：25 
+Time:2019-07-12 17:29:27,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：42 
+Time:2019-07-12 17:29:27,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：42 
+Time:2019-07-12 17:29:27,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：42 
+Time:2019-07-12 17:29:27,448; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：42 
+Time:2019-07-12 17:29:27,448; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：42 
+Time:2019-07-12 17:29:29,554; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：41 
+Time:2019-07-12 17:29:32,594; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：41 
+Time:2019-07-12 17:29:32,601; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：41 
+Time:2019-07-12 17:29:32,610; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：41 
+Time:2019-07-12 17:29:34,304; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：44 
+Time:2019-07-12 17:29:34,679; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：40 
+Time:2019-07-12 17:29:35,693; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：24 
+Time:2019-07-12 17:29:37,769; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：40 
+Time:2019-07-12 17:29:37,771; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：40 
+Time:2019-07-12 17:29:37,779; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：40 
+Time:2019-07-12 17:29:39,756; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：39 
+Time:2019-07-12 17:29:42,879; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：39 
+Time:2019-07-12 17:29:42,882; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：39 
+Time:2019-07-12 17:29:42,896; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：39 
+Time:2019-07-12 17:29:43,046; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：43 
+Time:2019-07-12 17:29:43,913; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：23 
+Time:2019-07-12 17:29:44,888; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：38 
+Time:2019-07-12 17:29:48,023; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：38 
+Time:2019-07-12 17:29:48,025; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：38 
+Time:2019-07-12 17:29:48,025; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：38 
+Time:2019-07-12 17:29:48,028; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：38 
+Time:2019-07-12 17:29:49,972; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：37 
+Time:2019-07-12 17:29:51,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：42 
+Time:2019-07-12 17:29:52,135; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：22 
+Time:2019-07-12 17:29:53,128; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：37 
+Time:2019-07-12 17:29:53,129; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：37 
+Time:2019-07-12 17:29:53,137; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：37 
+Time:2019-07-12 17:29:55,079; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：36 
+Time:2019-07-12 17:29:58,237; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：36 
+Time:2019-07-12 17:29:58,237; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：36 
+Time:2019-07-12 17:29:58,237; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：36 
+Time:2019-07-12 17:29:58,237; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：36 
+Time:2019-07-12 17:29:58,238; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：36 
+Time:2019-07-12 17:30:00,270; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：35 
+Time:2019-07-12 17:30:00,276; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：41 
+Time:2019-07-12 17:30:00,318; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：21 
+Time:2019-07-12 17:30:03,442; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：35 
+Time:2019-07-12 17:30:03,443; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：35 
+Time:2019-07-12 17:30:03,448; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：35 
+Time:2019-07-12 17:30:05,371; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：34 
+Time:2019-07-12 17:30:08,492; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：20 
+Time:2019-07-12 17:30:08,524; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：34 
+Time:2019-07-12 17:30:08,528; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：34 
+Time:2019-07-12 17:30:08,532; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：34 
+Time:2019-07-12 17:30:08,785; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：40 
+Time:2019-07-12 17:30:10,454; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：33 
+Time:2019-07-12 17:30:13,617; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：33 
+Time:2019-07-12 17:30:13,652; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：33 
+Time:2019-07-12 17:30:13,658; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：33 
+Time:2019-07-12 17:30:15,539; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：32 
+Time:2019-07-12 17:30:16,719; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：19 
+Time:2019-07-12 17:30:17,166; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：39 
+Time:2019-07-12 17:30:18,753; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：32 
+Time:2019-07-12 17:30:18,781; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：32 
+Time:2019-07-12 17:30:18,783; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：32 
+Time:2019-07-12 17:30:20,627; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：31 
+Time:2019-07-12 17:30:23,833; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：31 
+Time:2019-07-12 17:30:23,849; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：31 
+Time:2019-07-12 17:30:23,858; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：31 
+Time:2019-07-12 17:30:24,921; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：18 
+Time:2019-07-12 17:30:25,765; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：30 
+Time:2019-07-12 17:30:25,770; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：38 
+Time:2019-07-12 17:30:28,996; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：30 
+Time:2019-07-12 17:30:29,002; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：30 
+Time:2019-07-12 17:30:29,006; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：30 
+Time:2019-07-12 17:30:33,158; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：17 
+Time:2019-07-12 17:30:34,084; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：29 
+Time:2019-07-12 17:30:34,093; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：29 
+Time:2019-07-12 17:30:34,095; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：29 
+Time:2019-07-12 17:30:34,374; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：37 
+Time:2019-07-12 17:30:34,377; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：29 
+Time:2019-07-12 17:30:39,209; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：28 
+Time:2019-07-12 17:30:39,211; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：28 
+Time:2019-07-12 17:30:39,211; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：28 
+Time:2019-07-12 17:30:39,219; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：28 
+Time:2019-07-12 17:30:39,481; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：28 
+Time:2019-07-12 17:30:41,382; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：16 
+Time:2019-07-12 17:30:43,043; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：36 
+Time:2019-07-12 17:30:44,333; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：27 
+Time:2019-07-12 17:30:44,343; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：27 
+Time:2019-07-12 17:30:44,352; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：27 
+Time:2019-07-12 17:30:44,592; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：27 
+Time:2019-07-12 17:30:49,448; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：26 
+Time:2019-07-12 17:30:49,455; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：26 
+Time:2019-07-12 17:30:49,461; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：26 
+Time:2019-07-12 17:30:49,609; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：15 
+Time:2019-07-12 17:30:49,651; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：26 
+Time:2019-07-12 17:30:51,717; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：35 
+Time:2019-07-12 17:30:54,615; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：25 
+Time:2019-07-12 17:30:54,617; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：25 
+Time:2019-07-12 17:30:54,619; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：25 
+Time:2019-07-12 17:30:54,751; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：25 
+Time:2019-07-12 17:30:57,828; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：14 
+Time:2019-07-12 17:30:59,760; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：24 
+Time:2019-07-12 17:30:59,760; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：24 
+Time:2019-07-12 17:30:59,761; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：24 
+Time:2019-07-12 17:30:59,767; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：24 
+Time:2019-07-12 17:31:00,197; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：24 
+Time:2019-07-12 17:31:00,203; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：34 
+Time:2019-07-12 17:31:04,838; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：23 
+Time:2019-07-12 17:31:04,848; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：23 
+Time:2019-07-12 17:31:04,851; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：23 
+Time:2019-07-12 17:31:05,287; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：23 
+Time:2019-07-12 17:31:06,037; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：13 
+Time:2019-07-12 17:31:08,474; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：33 
+Time:2019-07-12 17:31:10,006; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：22 
+Time:2019-07-12 17:31:10,016; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：22 
+Time:2019-07-12 17:31:10,019; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：22 
+Time:2019-07-12 17:31:10,417; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：22 
+Time:2019-07-12 17:31:14,292; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：12 
+Time:2019-07-12 17:31:15,121; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,121; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,121; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,124; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,124; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,125; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,124; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,125; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：21 
+Time:2019-07-12 17:31:15,516; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：21 
+Time:2019-07-12 17:31:17,178; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：32 
+Time:2019-07-12 17:31:20,279; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：20 
+Time:2019-07-12 17:31:20,283; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：20 
+Time:2019-07-12 17:31:20,287; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：20 
+Time:2019-07-12 17:31:20,636; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：20 
+Time:2019-07-12 17:31:22,495; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：11 
+Time:2019-07-12 17:31:25,375; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：19 
+Time:2019-07-12 17:31:25,390; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：19 
+Time:2019-07-12 17:31:25,398; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：19 
+Time:2019-07-12 17:31:25,797; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：19 
+Time:2019-07-12 17:31:25,800; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：31 
+Time:2019-07-12 17:31:30,542; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：18 
+Time:2019-07-12 17:31:30,553; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：18 
+Time:2019-07-12 17:31:30,557; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：18 
+Time:2019-07-12 17:31:30,691; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：10 
+Time:2019-07-12 17:31:34,164; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：30 
+Time:2019-07-12 17:31:34,165; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：18 
+Time:2019-07-12 17:31:35,616; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：17 
+Time:2019-07-12 17:31:35,631; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：17 
+Time:2019-07-12 17:31:35,634; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：17 
+Time:2019-07-12 17:31:38,851; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：9 
+Time:2019-07-12 17:31:40,688; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：16 
+Time:2019-07-12 17:31:40,701; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：16 
+Time:2019-07-12 17:31:40,707; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：16 
+Time:2019-07-12 17:31:42,902; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：17 
+Time:2019-07-12 17:31:42,904; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：29 
+Time:2019-07-12 17:31:42,904; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：29 
+Time:2019-07-12 17:31:45,816; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：15 
+Time:2019-07-12 17:31:45,818; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：15 
+Time:2019-07-12 17:31:45,822; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：15 
+Time:2019-07-12 17:31:47,067; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：8 
+Time:2019-07-12 17:31:50,916; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：14 
+Time:2019-07-12 17:31:50,916; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：14 
+Time:2019-07-12 17:31:50,920; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：14 
+Time:2019-07-12 17:31:51,540; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：28 
+Time:2019-07-12 17:31:51,541; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：16 
+Time:2019-07-12 17:31:55,278; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：7 
+Time:2019-07-12 17:31:56,012; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：13 
+Time:2019-07-12 17:31:56,017; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：13 
+Time:2019-07-12 17:31:56,027; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：13 
+Time:2019-07-12 17:32:00,028; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：15 
+Time:2019-07-12 17:32:00,031; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：27 
+Time:2019-07-12 17:32:00,961; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 17:32:00,973; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843/com.ahdi.qrindo.wallet_20190712172843_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 17:32:00,980; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843/com.ahdi.qrindo.wallet_20190712172843_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 17:32:00,981; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 17:32:01,114; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：12 
+Time:2019-07-12 17:32:01,123; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：12 
+Time:2019-07-12 17:32:01,129; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：12 
+Time:2019-07-12 17:32:03,483; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：6 
+Time:2019-07-12 17:32:05,135; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：14 
+Time:2019-07-12 17:32:06,198; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：11 
+Time:2019-07-12 17:32:06,213; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：11 
+Time:2019-07-12 17:32:06,223; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：11 
+Time:2019-07-12 17:32:08,553; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：26 
+Time:2019-07-12 17:32:10,261; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：13 
+Time:2019-07-12 17:32:11,304; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：10 
+Time:2019-07-12 17:32:11,319; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：10 
+Time:2019-07-12 17:32:11,323; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：10 
+Time:2019-07-12 17:32:11,704; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：5 
+Time:2019-07-12 17:32:15,402; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：12 
+Time:2019-07-12 17:32:16,406; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：9 
+Time:2019-07-12 17:32:16,430; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：9 
+Time:2019-07-12 17:32:16,434; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：9 
+Time:2019-07-12 17:32:17,325; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：25 
+Time:2019-07-12 17:32:19,912; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：4 
+Time:2019-07-12 17:32:20,499; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：11 
+Time:2019-07-12 17:32:21,536; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：8 
+Time:2019-07-12 17:32:21,537; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：8 
+Time:2019-07-12 17:32:21,547; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：8 
+Time:2019-07-12 17:32:25,926; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：10 
+Time:2019-07-12 17:32:25,935; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：24 
+Time:2019-07-12 17:32:26,707; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：7 
+Time:2019-07-12 17:32:26,712; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：7 
+Time:2019-07-12 17:32:26,714; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：7 
+Time:2019-07-12 17:32:28,111; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：3 
+Time:2019-07-12 17:32:31,101; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：9 
+Time:2019-07-12 17:32:31,786; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：6 
+Time:2019-07-12 17:32:31,792; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：6 
+Time:2019-07-12 17:32:31,801; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：6 
+Time:2019-07-12 17:32:34,611; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：23 
+Time:2019-07-12 17:32:36,206; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：8 
+Time:2019-07-12 17:32:36,299; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：2 
+Time:2019-07-12 17:32:36,866; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：5 
+Time:2019-07-12 17:32:36,876; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：5 
+Time:2019-07-12 17:32:36,881; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：5 
+Time:2019-07-12 17:32:41,309; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：7 
+Time:2019-07-12 17:32:41,951; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：4 
+Time:2019-07-12 17:32:41,973; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：4 
+Time:2019-07-12 17:32:41,985; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：4 
+Time:2019-07-12 17:32:43,224; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：22 
+Time:2019-07-12 17:32:44,515; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：1 
+Time:2019-07-12 17:32:46,449; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：6 
+Time:2019-07-12 17:32:47,053; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：3 
+Time:2019-07-12 17:32:47,067; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：3 
+Time:2019-07-12 17:32:47,070; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：3 
+Time:2019-07-12 17:32:51,697; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：5 
+Time:2019-07-12 17:32:51,704; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：21 
+Time:2019-07-12 17:32:52,208; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：2 
+Time:2019-07-12 17:32:52,214; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：2 
+Time:2019-07-12 17:32:52,218; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：2 
+Time:2019-07-12 17:32:52,711; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：0 
+Time:2019-07-12 17:32:52,712; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:32:52,713; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:32:52.712097 
+Time:2019-07-12 17:32:52,713; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:32:52,714; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:32:52,715; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:32:52,716; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:32:52,716; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:32:56,842; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：4 
+Time:2019-07-12 17:32:57,276; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：1 
+Time:2019-07-12 17:32:57,300; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：1 
+Time:2019-07-12 17:32:57,306; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：1 
+Time:2019-07-12 17:33:00,270; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：20 
+Time:2019-07-12 17:33:01,981; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：3 
+Time:2019-07-12 17:33:02,426; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：0 
+Time:2019-07-12 17:33:02,429; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:33:02,432; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:33:02.430652 
+Time:2019-07-12 17:33:02,435; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:33:02,437; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：0 
+Time:2019-07-12 17:33:02,440; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：0 
+Time:2019-07-12 17:33:02,441; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:33:02,445; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:33:02,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:33:02.444653 
+Time:2019-07-12 17:33:02,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:33:02.444653 
+Time:2019-07-12 17:33:02,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:33:02.444653 
+Time:2019-07-12 17:33:02,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:33:02,447; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:33:02,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:33:02,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:33:02,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:33:02,450; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:33:02,448; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:33:02.445653 
+Time:2019-07-12 17:33:02,452; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:33:02,453; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:33:02,454; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:33:02,455; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:33:02,456; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:33:02,457; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:33:02,459; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:33:02,460; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:33:02,460; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:33:02,462; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:33:02,464; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:33:02,465; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:33:07,072; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：2 
+Time:2019-07-12 17:33:08,891; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：19 
+Time:2019-07-12 17:33:12,180; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：1 
+Time:2019-07-12 17:33:17,428; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：0 
+Time:2019-07-12 17:33:17,431; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:33:17,434; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:33:17.431510 
+Time:2019-07-12 17:33:17,436; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：18 
+Time:2019-07-12 17:33:17,440; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:33:17,442; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:33:17,445; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:33:17,448; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:33:17,449; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:33:26,001; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：17 
+Time:2019-07-12 17:33:34,685; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：16 
+Time:2019-07-12 17:33:43,042; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：15 
+Time:2019-07-12 17:33:51,737; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：14 
+Time:2019-07-12 17:34:00,384; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：13 
+Time:2019-07-12 17:34:08,953; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：12 
+Time:2019-07-12 17:34:17,494; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：11 
+Time:2019-07-12 17:34:26,086; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：10 
+Time:2019-07-12 17:34:34,657; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：9 
+Time:2019-07-12 17:34:43,185; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：8 
+Time:2019-07-12 17:34:51,731; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：7 
+Time:2019-07-12 17:35:00,195; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：6 
+Time:2019-07-12 17:35:08,840; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：5 
+Time:2019-07-12 17:35:17,407; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：4 
+Time:2019-07-12 17:35:25,999; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：3 
+Time:2019-07-12 17:35:34,639; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：2 
+Time:2019-07-12 17:35:43,217; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：1 
+Time:2019-07-12 17:35:51,826; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：0 
+Time:2019-07-12 17:35:51,827; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:35:51,828; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:35:51.827341 
+Time:2019-07-12 17:35:51,829; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:35:51,829; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:35:51,830; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:35:51,831; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:35:51,832; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712172843 
+Time:2019-07-12 17:41:18,867; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:41:18.867047 
+Time:2019-07-12 17:41:18,868; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712174118 
+Time:2019-07-12 17:41:18,869; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:41:18,869; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K', '1') 
+Time:2019-07-12 17:41:18,871; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:41:18,871; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:41:18.871047 
+Time:2019-07-12 17:41:18,872; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:41:18,873; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:41:18,873; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:41:18,874; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:41:18,875; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174118 
+Time:2019-07-12 17:41:18,876; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712174118_monkey.log 
+Time:2019-07-12 17:41:19,583; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 17:41:19,598; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174118/com.ahdi.qrindo.wallet_20190712174118_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 17:41:19,604; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174118/com.ahdi.qrindo.wallet_20190712174118_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 17:41:19,607; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 17:42:15,682; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:42:15.682297 
+Time:2019-07-12 17:42:15,683; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712174215 
+Time:2019-07-12 17:42:15,684; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:42:15,685; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K', '1') 
+Time:2019-07-12 17:42:15,687; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:42:15,688; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:42:15.687297 
+Time:2019-07-12 17:42:15,688; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:42:15,689; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:42:15,690; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:42:15,691; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:42:15,692; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174215 
+Time:2019-07-12 17:42:15,693; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712174215_monkey.log 
+Time:2019-07-12 17:42:20,863; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 17:42:20,870; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174215/com.ahdi.qrindo.wallet_20190712174215_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 17:42:20,876; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174215/com.ahdi.qrindo.wallet_20190712174215_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 17:42:20,877; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 17:43:46,297; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:43:46.296479 
+Time:2019-07-12 17:43:46,298; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712174346 
+Time:2019-07-12 17:43:46,299; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:43:46,300; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K', '1') 
+Time:2019-07-12 17:43:46,301; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:43:46,303; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:43:46.302480 
+Time:2019-07-12 17:43:46,303; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:43:46,304; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:43:46,305; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:43:46,306; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:43:46,307; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174346 
+Time:2019-07-12 17:43:46,308; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712174346_monkey.log 
+Time:2019-07-12 17:45:20,215; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 17:45:20,226; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174346/com.ahdi.qrindo.wallet_20190712174346_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 17:45:20,237; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174346/com.ahdi.qrindo.wallet_20190712174346_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 17:45:20,239; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 17:48:07,490; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:48:07.489419 
+Time:2019-07-12 17:48:07,490; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712174807 
+Time:2019-07-12 17:48:07,492; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：50664 
+Time:2019-07-12 17:48:07,493; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:48:07,495; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:48:07,495; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：50576 
+Time:2019-07-12 17:48:07,496; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:48:07.495419 
+Time:2019-07-12 17:48:07,496; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:48:07.495419 
+Time:2019-07-12 17:48:07,497; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K', '1') 
+Time:2019-07-12 17:48:07,498; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:48:07,497; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K', '1') 
+Time:2019-07-12 17:48:07,498; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:48:07,499; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：51776 
+Time:2019-07-12 17:48:07,502; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:48:07,504; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:48:07,504; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:48:07,504; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:48:07.503420 
+Time:2019-07-12 17:48:07,504; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：51304 
+Time:2019-07-12 17:48:07,504; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:48:07,504; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:48:07.503420 
+Time:2019-07-12 17:48:07,506; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:48:07,506; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:48:07,506; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:48:07,506; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:48:07,507; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:48:07,507; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:48:07,508; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:48:07,508; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:48:07,509; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:48:07,509; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:48:07,504; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：51304 
+Time:2019-07-12 17:48:07,511; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:48:07,511; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:48:07,512; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174807 
+Time:2019-07-12 17:48:07,512; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174807 
+Time:2019-07-12 17:48:07,513; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712174807_monkey.log 
+Time:2019-07-12 17:48:07,513; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712174807_monkey.log 
+Time:2019-07-12 17:48:07,514; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174807 
+Time:2019-07-12 17:48:07,514; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174807 
+Time:2019-07-12 17:48:07,518; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：51568 
+Time:2019-07-12 17:48:07,520; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：50112 
+Time:2019-07-12 17:48:07,522; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：51448 
+Time:2019-07-12 17:48:07,525; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:启动线程：51712 
+Time:2019-07-12 17:48:12,753; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：49 
+Time:2019-07-12 17:48:15,331; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：29 
+Time:2019-07-12 17:48:15,612; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：49 
+Time:2019-07-12 17:48:15,632; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：49 
+Time:2019-07-12 17:48:15,635; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：49 
+Time:2019-07-12 17:48:17,852; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：48 
+Time:2019-07-12 17:48:18,736; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:流量统计剩余运行次数为：29 
+Time:2019-07-12 17:48:20,713; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池温度统计剩余运行次数为：48 
+Time:2019-07-12 17:48:20,723; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:fps统计剩余运行次数为：48 
+Time:2019-07-12 17:48:20,725; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:电池电量统计剩余运行次数为：48 
+Time:2019-07-12 17:48:23,195; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:CPU百分比统计剩余运行次数为：47 
+Time:2019-07-12 17:48:23,200; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：28 
+Time:2019-07-12 17:48:35,104; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:48:35.103998 
+Time:2019-07-12 17:48:35,104; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712174835 
+Time:2019-07-12 17:48:35,105; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:48:35,106; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K', '1') 
+Time:2019-07-12 17:48:35,107; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:48:35,108; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:48:35.107998 
+Time:2019-07-12 17:48:35,108; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:48:35,109; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:48:35,110; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:48:35,110; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:48:35,111; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174835 
+Time:2019-07-12 17:48:35,112; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712174835_monkey.log 
+Time:2019-07-12 17:49:01,316; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Kill monkey success！ 
+Time:2019-07-12 17:49:04,924; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 17:49:04,931; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174835/com.ahdi.qrindo.wallet_20190712174835_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 17:49:04,937; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174835/com.ahdi.qrindo.wallet_20190712174835_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 17:49:04,938; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 17:49:06,828; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Kill monkey success！ 
+Time:2019-07-12 17:49:09,885; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:No monkey Running！ 
+Time:2019-07-12 17:49:16,080; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:No monkey Running！ 
+Time:2019-07-12 17:49:31,057; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:49:31.057199 
+Time:2019-07-12 17:49:31,058; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190712174931 
+Time:2019-07-12 17:49:31,059; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 17:49:31,060; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1000', '360', '810EBM32TZ4K', '1') 
+Time:2019-07-12 17:49:31,061; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:基础目录为：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult 
+Time:2019-07-12 17:49:31,061; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-12 17:49:31.061199 
+Time:2019-07-12 17:49:31,062; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201907 
+Time:2019-07-12 17:49:31,063; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019 
+Time:2019-07-12 17:49:31,063; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907 
+Time:2019-07-12 17:49:31,064; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712 
+Time:2019-07-12 17:49:31,065; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经创建目录：D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174931 
+Time:2019-07-12 17:49:31,066; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712174931_monkey.log 
+Time:2019-07-12 17:52:51,466; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 17:52:51,478; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174931/com.ahdi.qrindo.wallet_20190712174931_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 17:52:51,490; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/2019/201907/20190712/20190712174931/com.ahdi.qrindo.wallet_20190712174931_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 17:52:51,493; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 

@@ -1,0 +1,44 @@
+Time:2019-07-24 17:39:33,752; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:39:33.749058 
+Time:2019-07-24 17:39:33,755; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724173933 
+Time:2019-07-24 17:39:39,444; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：179 
+Time:2019-07-24 17:41:01,914; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:41:01.914101 
+Time:2019-07-24 17:41:01,915; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174101 
+Time:2019-07-24 17:42:23,348; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:42:23.347759 
+Time:2019-07-24 17:42:23,349; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174223 
+Time:2019-07-24 17:42:28,901; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：179 
+Time:2019-07-24 17:43:18,565; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:43:18.564917 
+Time:2019-07-24 17:43:18,565; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174318 
+Time:2019-07-24 17:43:32,958; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:43:32.957740 
+Time:2019-07-24 17:43:32,959; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174332 
+Time:2019-07-24 17:43:38,585; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：179 
+Time:2019-07-24 17:43:53,189; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:43:53.188897 
+Time:2019-07-24 17:43:53,190; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174353 
+Time:2019-07-24 17:44:43,121; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:44:43.120753 
+Time:2019-07-24 17:44:43,122; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174443 
+Time:2019-07-24 17:45:36,127; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:45:36.126785 
+Time:2019-07-24 17:45:36,127; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174536 
+Time:2019-07-24 17:47:34,002; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:47:34.001527 
+Time:2019-07-24 17:47:34,003; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174734 
+Time:2019-07-24 17:47:44,996; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:47:44.996156 
+Time:2019-07-24 17:47:44,997; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174744 
+Time:2019-07-24 17:47:59,240; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:47:59.239971 
+Time:2019-07-24 17:47:59,241; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174759 
+Time:2019-07-24 17:48:15,214; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:48:15.214885 
+Time:2019-07-24 17:48:15,215; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174815 
+Time:2019-07-24 17:48:43,339; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:48:43.339493 
+Time:2019-07-24 17:48:43,340; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174843 
+Time:2019-07-24 17:48:48,881; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：179 
+Time:2019-07-24 17:49:05,567; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:49:05.566764 
+Time:2019-07-24 17:49:05,568; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724174905 
+Time:2019-07-24 17:49:11,162; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：179 
+Time:2019-07-24 17:50:25,463; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-07-24 17:50:25.462334 
+Time:2019-07-24 17:50:25,464; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190724175025 
+Time:2019-07-24 17:50:31,061; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：179 
+Time:2019-07-24 17:50:36,646; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：178 
+Time:2019-07-24 17:50:42,237; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：177 
+Time:2019-07-24 17:50:47,816; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：176 
+Time:2019-07-24 17:50:53,404; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：175 
+Time:2019-07-24 17:50:59,014; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：174 
+Time:2019-07-24 17:51:04,620; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：173 
+Time:2019-07-24 17:51:10,196; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：172 
+Time:2019-07-24 17:51:15,800; FileName:my_log.py;-> FuncName:printLog;  LineNo.:80; LevelNo.:20;--->LevelName:INFO;----->LogMessage:内存统计剩余运行次数为：171 

@@ -1,0 +1,28 @@
+Time:2019-07-12 14:47:34,415; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 14:47:34,417; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 14:47:34,418; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance 
+Time:2019-07-12 14:47:34,419; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712144734_monkey.log 
+Time:2019-07-12 14:47:34,431; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 14:47:34,432; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance\\allCode\\monkey/MonkeyLog/com.ahdi.qrindo.wallet_20190712144734_monkey.log' 
+Time:2019-07-12 14:47:34,433; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:[Errno 2] No such file or directory: 'D:\\Users\\Administrator\\PycharmProjects\\AppSpecialTest\\monkeyAndPerformance\\allCode\\monkey/MonkeyLog/com.ahdi.qrindo.wallet_20190712144734_monkey.log' 
+Time:2019-07-12 14:47:34,434; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 14:49:17,998; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 14:49:18,000; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 14:49:18,001; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance 
+Time:2019-07-12 14:49:18,002; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712144918_monkey.log 
+Time:2019-07-12 14:49:18,822; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 14:49:18,828; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/com.ahdi.qrindo.wallet_20190712144918_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 14:49:18,831; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/com.ahdi.qrindo.wallet_20190712144918_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 14:49:18,832; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
+Time:2019-07-12 14:51:16,768; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance\allCode\monkey 
+Time:2019-07-12 14:51:16,769; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:('com.ahdi.qrindo.wallet', '1', '360', '810EBM32TZ4K') 
+Time:2019-07-12 14:51:16,770; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance 
+Time:2019-07-12 14:51:16,771; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey Log Name:com.ahdi.qrindo.wallet_20190712145116_monkey.log 
+Time:2019-07-12 14:51:17,499; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage: 
+Time:2019-07-12 14:51:17,505; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/com.ahdi.qrindo.wallet_20190712145116_monkey.log_CRASH.txt"
+ 
+Time:2019-07-12 14:51:17,509; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Please check Exception keywords in the "D:\Users\Administrator\PycharmProjects\AppSpecialTest\monkeyAndPerformance/codeResult/com.ahdi.qrindo.wallet_20190712145116_monkey.log_Exception.txt"
+ 
+Time:2019-07-12 14:51:17,510; FileName:my_log.py;-> FuncName:printLog;  LineNo.:76; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Monkey finished! 
